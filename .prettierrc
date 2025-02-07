@@ -1,0 +1,10 @@
+{
+  "singleQuote": false, // Utilise des guillemets doubles
+  "semi": true, // Ajoute des points-virgules
+  "trailingComma": "es5", // Ajoute une virgule finale pour les objets et tableaux
+  "printWidth": 80, // Largeur maximale d'une ligne
+  "tabWidth": 2, // Taille de l'indentation
+  "bracketSpacing": true, // Ajoute des espaces entre les accolades
+  "arrowParens": "always", // Ajoute des parenthèses autour des paramètres de flèches
+  "endOfLine": "lf" // Utilise des sauts de ligne Unix (LF)
+}
