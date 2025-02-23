@@ -1,9 +1,10 @@
 {
   "name": "@repo/prettier-config",
   "version": "1.0.0",
-  "main": "index.json",
+  "main": "index.js",
   "license": "MIT",
-  "dependencies": {
-    "prettier": "^3.4.2"
+  "scripts": {},
+  "peerDependencies": {
+    "prettier": ">=3.0.0"
   }
 }
