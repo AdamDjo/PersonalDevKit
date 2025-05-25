@@ -5,7 +5,7 @@ import pluginReactHooks from 'eslint-plugin-react-hooks';
 import pluginReact from 'eslint-plugin-react';
 import globals from 'globals';
 import { config as baseConfig } from './base.js';
-import pluginPrettier from 'eslint-plugin-prettier'; // Importez le plugin Prettier
+// import pluginPrettier from 'eslint-plugin-prettier'; // Importez le plugin Prettier
 
 /**
  * A custom ESLint configuration for libraries that use React.
@@ -17,7 +17,7 @@ export const config = [
   js.configs.recommended,
   eslintConfigPrettier, // Désactive les règles ESLint qui entrent en conflit avec Prettier
   ...tseslint.configs.recommended,
-  pluginReact.configs.flat.recommended,
+  // pluginReact.configs.flat.recommended,
   {
     languageOptions: {
       ...pluginReact.configs.flat.recommended.languageOptions,
@@ -30,14 +30,14 @@ export const config = [
   {
     plugins: {
       'react-hooks': pluginReactHooks,
-      prettier: pluginPrettier, // ✅ Correct
+      // prettier: pluginPrettier, // ✅ Correct
     },
     settings: { react: { version: 'detect' } },
     rules: {
       ...pluginReactHooks.configs.recommended.rules,
       // React scope no longer necessary with new JSX transform.
       'react/react-in-jsx-scope': 'off',
-      'prettier/prettier': 'warn', // Active Prettier en tant que règle ESLint
+      // 'prettier/prettier': 'warn', // Active Prettier en tant que règle ESLint
     },
   },
 ];
