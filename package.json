@@ -8,6 +8,9 @@
     "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md,mdx,css,scss}\""
   },
   "devDependencies": {
+    "@repo/prettier-config": "workspace:*",
+    "@repo/eslint-config": "workspace:*",
+    "@repo/typescript-config": "workspace:*",
     "prettier": "^3.4.2",
     "turbo": "^2.4.0",
     "typescript": "5.7.3"
