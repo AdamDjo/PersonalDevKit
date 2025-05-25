@@ -33,17 +33,32 @@ export const nextJsConfig = [
     rules: {
       ...pluginNext.configs.recommended.rules,
       ...pluginNext.configs['core-web-vitals'].rules,
+      ...pluginReactHooks.configs.recommended.rules,
+      // React scope no longer necessary with new JSX transform.
+      'react/react-in-jsx-scope': 'off',
+      'import/extensions': [
+        'error',
+        'ignorePackages',
+        {
+          ts: 'never',
+          tsx: 'never',
+          js: 'never',
+          jsx: 'never',
+        },
+      ],
     },
   },
   {
     plugins: {
       'react-hooks': pluginReactHooks,
     },
-    settings: { react: { version: 'detect' } },
-    rules: {
-      ...pluginReactHooks.configs.recommended.rules,
-      // React scope no longer necessary with new JSX transform.
-      'react/react-in-jsx-scope': 'off',
-    },
+    settings: { react: { version: 'detect' },
+    'import/resolver': {
+      typescript: {}, // utilise les tsconfig.json de chaque package
+      node: {
+        extensions: ['.js', '.jsx', '.ts', '.tsx'],
+      },
+    } },
+
   },
 ];

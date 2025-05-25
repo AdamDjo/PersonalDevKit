@@ -21,6 +21,16 @@ export const config = [
     },
     rules: {
       'turbo/no-undeclared-env-vars': 'warn',
+      'import/extensions': [
+        'error',
+        'ignorePackages',
+        {
+          ts: 'never',
+          tsx: 'never',
+          js: 'never',
+          jsx: 'never',
+        },
+      ],
       // 'prettier/prettier': 'warn', // Active Prettier en tant que règle ESLint
     },
   },
