@@ -18,7 +18,7 @@ importers:
         specifier: 5.7.3
         version: 5.7.3
 
-  apps/docs:
+  apps/shared-ui:
     dependencies:
       '@repo/ui':
         specifier: workspace:*
