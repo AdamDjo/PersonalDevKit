@@ -1,20 +1,27 @@
-'use client';
+import { type JSX } from 'react';
 
-import { ReactNode } from 'react';
-
-interface ButtonProps {
-  children: ReactNode;
+export const Card = ({
+  className,
+  title,
+  children,
+  href,
+}: {
   className?: string;
-  appName: string;
-}
-
-export const Button = ({ children, className, appName }: ButtonProps) => {
+  title: string;
+  children: React.ReactNode;
+  href: string;
+}): JSX.Element => {
   return (
-    <button
+    <a
       className={className}
-      onClick={() => alert(`Hello from your ${appName} app!`)}
+      href={`${href}?utm_source=create-turbo&utm_medium=basic&utm_campaign=create-turbo`}
+      rel="noopener noreferrer"
+      target="_blank"
     >
-      {children}
-    </button>
+      <h2>
+        {title} <span>-&gt;</span>
+      </h2>
+      <p>{children}</p>
+    </a>
   );
 };

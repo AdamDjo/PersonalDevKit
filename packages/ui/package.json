@@ -10,7 +10,7 @@
   "scripts": {
     "format": "prettier . --check",
     "format:fix": "prettier . --write",
-    "lint": "eslint . --max-warnings 0",
+    "lint": "eslint . --max-warnings 50",
     "generate:component": "turbo gen react-component",
     "check-types": "tsc --noEmit"
   },

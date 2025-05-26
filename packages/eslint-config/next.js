@@ -1,49 +1,56 @@
-import js from '@eslint/js';
-import eslintConfigPrettier from 'eslint-config-prettier';
-import tseslint from 'typescript-eslint';
-import pluginReactHooks from 'eslint-plugin-react-hooks';
-import pluginReact from 'eslint-plugin-react';
-import globals from 'globals';
-import pluginNext from '@next/eslint-plugin-next';
-import { config as baseConfig } from './base.js';
+import pluginReactHooks from "eslint-plugin-react-hooks";
+import pluginNext from "@next/eslint-plugin-next";
+import pluginPrettier from "eslint-plugin-prettier";
+import { config as baseConfig } from "./base.js";
 
-/**
- * A custom ESLint configuration for libraries that use Next.js.
- *
- * @type {import("eslint").Linter.Config}
- * */
-export const nextJsConfig = [
-  ...baseConfig, // La configuration Prettier est déjà incluse ici
-  js.configs.recommended,
-  eslintConfigPrettier,
-  ...tseslint.configs.recommended,
+/** @type {import("eslint").Linter.FlatConfig[]} */
+export default [
+  ...baseConfig,
   {
-    ...pluginReact.configs.flat.recommended,
     languageOptions: {
-      ...pluginReact.configs.flat.recommended.languageOptions,
+      parserOptions: {
+        sourceType: "module",
+        ecmaVersion: "latest",
+        ecmaFeatures: { jsx: true },
+      },
       globals: {
-        ...globals.serviceworker,
+        React: "readonly",
+      },
+    },
+    plugins: {
+      "@next/next": pluginNext,
+      prettier: pluginPrettier,
+      "react-hooks": pluginReactHooks,
+    },
+    rules: {
+      ...pluginNext.configs.recommended.rules,
+      ...pluginNext.configs["core-web-vitals"].rules,
+      ...pluginReactHooks.configs.recommended.rules,
+      "react/react-in-jsx-scope": "off",
+      "import/extensions": [
+        "error",
+        "ignorePackages",
+        {
+          ts: "never",
+          tsx: "never",
+          js: "never",
+          jsx: "never",
+        },
+      ],
+      "prettier/prettier": "warn",
+    },
+    settings: {
+      react: { version: "detect" },
+      "import/resolver": {
+        // typescript: {},
+        node: { extensions: [".js", ".jsx", ".ts", ".tsx"] },
       },
     },
   },
   {
-    plugins: {
-      '@next/next': pluginNext,
-    },
+    files: ["app/**/*.tsx"],
     rules: {
-      ...pluginNext.configs.recommended.rules,
-      ...pluginNext.configs['core-web-vitals'].rules,
-    },
-  },
-  {
-    plugins: {
-      'react-hooks': pluginReactHooks,
-    },
-    settings: { react: { version: 'detect' } },
-    rules: {
-      ...pluginReactHooks.configs.recommended.rules,
-      // React scope no longer necessary with new JSX transform.
-      'react/react-in-jsx-scope': 'off',
+      "react/function-component-definition": "off",
     },
   },
 ];
