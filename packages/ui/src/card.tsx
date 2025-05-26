@@ -1,6 +1,6 @@
 import { type JSX } from 'react';
 
-export function Card({
+export const Card = ({
   className,
   title,
   children,
@@ -10,11 +10,11 @@ export function Card({
   title: string;
   children: React.ReactNode;
   href: string;
-}): JSX.Element {
+}): JSX.Element => {
   return (
     <a
       className={className}
-      href={`${href}?utm_source=create-turbo&utm_medium=basic&utm_campaign=create-turbo"`}
+      href={`${href}?utm_source=create-turbo&utm_medium=basic&utm_campaign=create-turbo`}
       rel="noopener noreferrer"
       target="_blank"
     >
@@ -24,4 +24,4 @@ export function Card({
       <p>{children}</p>
     </a>
   );
-}
+};
