@@ -1,0 +1,131 @@
+@import '../assets/css/background-colors-dark.css';
+@import '../assets/css/background-colors-light.css';
+@import '../assets/css/border-colors-dark.css';
+@import '../assets/css/border-colors-light.css';
+@import '../assets/css/brand-colors.css';
+@import '../assets/css/dimensions.css';
+@import '../assets/css/font.css';
+@import '../assets/css/global-colors.css';
+@import '../assets/css/icon-colors-dark.css';
+@import '../assets/css/icon-colors-light.css';
+@import '../assets/css/link-colors-dark.css';
+@import '../assets/css/link-colors-light.css';
+@import '../assets/css/surface-colors-dark.css';
+@import '../assets/css/surface-colors-light.css';
+@import '../assets/css/text-colors-dark.css';
+@import '../assets/css/text-colors-light.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Reinit default style */
+
+body {
+    fill: var(--theme-icon-icon);
+}
+
+button {
+    background: inherit;
+    border: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+}
+
+/* Hack for corePlugins: { preflight: false } */
+
+@layer utilities {
+    .myui-border-b-solid {
+      border-bottom-style: solid;
+    }
+
+    .myui-border-t-solid {
+      border-top-style: solid;
+    }
+  }
+
+/* Hide scrollbar */
+
+.no-scroll {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.no-scroll::-webkit-scrollbar {
+    display: none;
+}
+
+/* Fonts Classes */
+
+.brand-lab-2 {
+    @apply myui-font-brand-lab-2 myui-text-brand-lab-2 myui-font-fw-brand-lab-2 myui-tracking-brand-lab-2 myui-leading-brand-lab-2 myui-no-underline myui-uppercase;
+}
+
+.brand-lab-3 {
+    @apply myui-font-brand-lab-3 myui-text-brand-lab-3 myui-font-fw-brand-lab-3 myui-tracking-brand-lab-3 myui-leading-brand-lab-3 myui-no-underline myui-uppercase;
+}
+
+.brand-lab-4 {
+    @apply myui-font-brand-lab-4 myui-text-brand-lab-4 myui-font-fw-brand-lab-4 myui-tracking-brand-lab-4 myui-leading-brand-lab-4 myui-no-underline myui-uppercase;
+}
+
+.brand-title-3 {
+    @apply myui-font-brand-title-3 myui-text-brand-title-3 myui-font-fw-brand-title-3 myui-tracking-brand-title-3 myui-leading-brand-title-3 myui-no-underline myui-uppercase;
+}
+
+.sys-body-2 {
+    @apply myui-font-sys-body-2 myui-text-sys-body-2 myui-font-fw-sys-body-2 myui-tracking-sys-body-2 myui-leading-sys-body-2 myui-no-underline myui-normal-case;
+}
+
+.sys-body-3 {
+    @apply myui-font-sys-body-3 myui-text-sys-body-3 myui-font-fw-sys-body-3 myui-tracking-sys-body-3 myui-leading-sys-body-3 myui-no-underline myui-normal-case;
+}
+
+.sys-body-4 {
+    @apply myui-font-sys-body-4 myui-text-sys-body-4 myui-font-fw-sys-body-4 myui-tracking-sys-body-4 myui-leading-sys-body-4 myui-no-underline myui-normal-case;
+}
+
+.sys-body-2-sb {
+    @apply myui-font-sys-body-2-sb myui-text-sys-body-2-sb myui-font-fw-sys-body-2-sb myui-tracking-sys-body-2-sb myui-leading-sys-body-2-sb myui-no-underline myui-normal-case;
+}
+
+.sys-lab-2 {
+    @apply myui-font-sys-lab-2 myui-text-sys-lab-2 myui-font-fw-sys-lab-2 myui-leading-sys-lab-2 myui-normal-case myui-no-underline;
+}
+
+.sys-lab-4 {
+    @apply myui-font-sys-lab-4 myui-text-sys-lab-4 myui-font-fw-sys-lab-4 myui-leading-sys-lab-4 myui-normal-case myui-no-underline;
+}
+
+.sys-lab-5 {
+    @apply myui-font-sys-lab-5 myui-text-sys-lab-5 myui-font-fw-sys-lab-5 myui-leading-sys-lab-5 myui-normal-case myui-no-underline;
+}
+
+.sys-lab-2-sb {
+    @apply myui-font-sys-lab-2-sb myui-text-sys-lab-2-sb myui-font-fw-sys-lab-2-sb myui-tracking-sys-lab-2-sb myui-leading-sys-lab-2-sb myui-no-underline myui-normal-case;
+}
+
+.sys-lab-4-sb {
+    @apply myui-font-sys-lab-4-sb myui-text-sys-lab-4-sb myui-font-fw-sys-lab-4-sb myui-tracking-sys-lab-4-sb myui-leading-sys-lab-4-sb myui-no-underline myui-normal-case;
+}
+
+.sys-title-6 {
+    @apply myui-font-sys-title-6 myui-text-sys-title-6 myui-font-fw-sys-title-6 myui-tracking-sys-title-6 myui-leading-sys-title-6 myui-no-underline myui-normal-case;
+}
+
+.sys-title-6-sb {
+    @apply myui-font-sys-title-6-sb myui-text-sys-title-6-sb myui-font-fw-sys-title-6-sb myui-tracking-sys-title-6-sb myui-leading-sys-title-6-sb myui-no-underline myui-normal-case;
+}
+
+.sys-link-1 {
+    @apply myui-font-sys-link-1 myui-text-sys-link-1 myui-font-fw-sys-link-1 myui-tracking-sys-link-1 myui-leading-sys-link-1 myui-underline myui-normal-case;
+}

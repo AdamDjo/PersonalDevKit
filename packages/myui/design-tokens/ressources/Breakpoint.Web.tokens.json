@@ -1,0 +1,26 @@
+{
+  "xs": {
+    "$type": "dimension",
+    "$value": "375px"
+  },
+  "sm": {
+    "$type": "dimension",
+    "$value": "800px"
+  },
+  "md": {
+    "$type": "dimension",
+    "$value": "1024px"
+  },
+  "lg": {
+    "$type": "dimension",
+    "$value": "1440px"
+  },
+  "xlg": {
+    "$type": "dimension",
+    "$value": "1600px"
+  },
+  "xxlg": {
+    "$type": "dimension",
+    "$value": "1920px"
+  }
+}

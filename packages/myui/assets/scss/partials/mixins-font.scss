@@ -1,0 +1,648 @@
+@mixin brand-display-1-desktop {
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 80px;
+    font-family: 'Myui';
+    letter-spacing: 0;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+@mixin brand-display-2-desktop {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 72px;
+    font-family: 'Myui';
+    letter-spacing: 0;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+@mixin brand-display-3-desktop {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 64px;
+    font-family: 'Myui';
+    letter-spacing: 0;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+@mixin brand-display-4-desktop {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    font-family: 'Myui';
+    letter-spacing: 0;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+@mixin brand-display-5-desktop {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 50px;
+    font-family: 'Myui';
+    letter-spacing: 0;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+@mixin brand-title-1-desktop {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    font-family: 'Myui';
+    letter-spacing: 0;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+@mixin brand-title-2-desktop {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 30px;
+    font-family: 'Myui';
+    letter-spacing: 0;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+@mixin brand-title-3-desktop {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    font-family: 'Myui';
+    letter-spacing: 0;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+@mixin brand-title-4-desktop {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    font-family: 'Myui';
+    letter-spacing: 0;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+@mixin brand-title-5-desktop {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    font-family: 'Myui';
+    letter-spacing: 0;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+@mixin brand-title-6-desktop {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: 'Myui';
+    letter-spacing: 0;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+@mixin brand-title-7-desktop {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    font-family: 'Myui';
+    letter-spacing: 0;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+@mixin system-title-1-desktop {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    font-family: 'Hind';
+    letter-spacing: 0;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+@mixin system-title-2-desktop {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 30px;
+    font-family: 'Hind';
+    letter-spacing: 0;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+@mixin system-title-3-desktop {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    font-family: 'Hind';
+    letter-spacing: 0;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+@mixin system-title-4-desktop {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    font-family: 'Hind';
+    letter-spacing: 0;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+@mixin system-title-5-desktop {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    font-family: 'Hind';
+    letter-spacing: 0;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+@mixin system-title-6-desktop {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: 'Hind';
+    letter-spacing: 0;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+@mixin system-title-7-desktop {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    font-family: 'Hind';
+    letter-spacing: 0;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+@mixin brand-label-1-desktop {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    font-family: 'Myui';
+    letter-spacing: 0;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+@mixin brand-label-2-desktop {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    font-family: 'Myui';
+    letter-spacing: 0;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+@mixin brand-label-3-desktop {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: 'Myui';
+    letter-spacing: 0;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+@mixin brand-label-4-desktop {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    font-family: 'Myui';
+    letter-spacing: 0;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+@mixin system-hind-display-1-regular-desktop {
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 80px;
+    font-family: 'Hind';
+    letter-spacing: 0;
+    text-decoration: none;
+    text-transform: none;
+}
+@mixin system-hind-display-1-semi-bold-desktop {
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 80px;
+    font-family: 'Hind';
+    letter-spacing: 0;
+    text-decoration: none;
+    text-transform: none;
+}
+@mixin system-hind-display-2-regular-desktop {
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 72px;
+    font-family: 'Hind';
+    letter-spacing: 0;
+    text-decoration: none;
+    text-transform: none;
+}
+@mixin system-hind-display-2-semi-bold-desktop {
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 72px;
+    font-family: 'Hind';
+    letter-spacing: 0;
+    text-decoration: none;
+    text-transform: none;
+}
+@mixin system-hind-display-3-regular-desktop {
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 64px;
+    font-family: 'Hind';
+    letter-spacing: 0;
+    text-decoration: none;
+    text-transform: none;
+}
+@mixin system-hind-display-3-semi-bold-desktop {
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 64px;
+    font-family: 'Hind';
+    letter-spacing: 0;
+    text-decoration: none;
+    text-transform: none;
+}
+@mixin system-hind-display-4-regular-desktop {
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    font-family: 'Hind';
+    letter-spacing: 0;
+    text-decoration: none;
+    text-transform: none;
+}
+@mixin system-hind-display-4-semi-bold-desktop {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+    font-family: 'Hind';
+    letter-spacing: 0;
+    text-decoration: none;
+    text-transform: none;
+}
+@mixin system-hind-display-5-regular-desktop {
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 50px;
+    font-family: 'Hind';
+    letter-spacing: 0;
+    text-decoration: none;
+    text-transform: none;
+}
+@mixin system-hind-display-5-semi-bold-desktop {
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 50px;
+    font-family: 'Hind';
+    letter-spacing: 0;
+    text-decoration: none;
+    text-transform: none;
+}
+@mixin system-hind-title-1-regular-desktop {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    font-family: 'Hind';
+    letter-spacing: 0;
+    text-decoration: none;
+    text-transform: none;
+}
+@mixin system-hind-title-1-semi-bold-desktop {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38px;
+    font-family: 'Hind';
+    letter-spacing: 0;
+    text-decoration: none;
+    text-transform: none;
+}
+@mixin system-hind-title-2-regular-desktop {
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px;
+    font-family: 'Hind';
+    letter-spacing: 0;
+    text-decoration: none;
+    text-transform: none;
+}
+@mixin system-hind-title-2-semi-bold-desktop {
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 30px;
+    font-family: 'Hind';
+    letter-spacing: 0;
+    text-decoration: none;
+    text-transform: none;
+}
+@mixin system-hind-title-3-regular-desktop {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    font-family: 'Hind';
+    letter-spacing: 0;
+    text-decoration: none;
+    text-transform: none;
+}
+@mixin system-hind-title-3-semi-bold-desktop {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    font-family: 'Hind';
+    letter-spacing: 0;
+    text-decoration: none;
+    text-transform: none;
+}
+@mixin system-hind-title-4-regular-desktop {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    font-family: 'Hind';
+    letter-spacing: 0;
+    text-decoration: none;
+    text-transform: none;
+}
+@mixin system-hind-title-4-semi-bold-desktop {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26px;
+    font-family: 'Hind';
+    letter-spacing: 0;
+    text-decoration: none;
+    text-transform: none;
+}
+@mixin system-hind-title-5-regular-desktop {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    font-family: 'Hind';
+    letter-spacing: 0;
+    text-decoration: none;
+    text-transform: none;
+}
+@mixin system-hind-title-5-semi-bold-desktop {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    font-family: 'Hind';
+    letter-spacing: 0;
+    text-decoration: none;
+    text-transform: none;
+}
+@mixin system-hind-title-6-regular-desktop {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: 'Hind';
+    letter-spacing: 0;
+    text-decoration: none;
+    text-transform: none;
+}
+@mixin system-hind-title-6-semi-bold-desktop {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: 'Hind';
+    letter-spacing: 0;
+    text-decoration: none;
+    text-transform: none;
+}
+@mixin system-hind-title-7-regular-desktop {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    font-family: 'Hind';
+    letter-spacing: 0;
+    text-decoration: none;
+    text-transform: none;
+}
+@mixin system-hind-title-7-semi-bold-desktop {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    font-family: 'Hind';
+    letter-spacing: 0;
+    text-decoration: none;
+    text-transform: none;
+}
+@mixin system-hind-body-1-regular-desktop {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    font-family: 'Hind';
+    letter-spacing: 0;
+    text-decoration: none;
+    text-transform: none;
+}
+@mixin system-hind-body-1-semi-bold-desktop {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    font-family: 'Hind';
+    letter-spacing: 0;
+    text-decoration: none;
+    text-transform: none;
+}
+@mixin system-hind-body-2-regular-desktop {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: 'Hind';
+    letter-spacing: 0;
+    text-decoration: none;
+    text-transform: none;
+}
+@mixin system-hind-body-2-semi-bold-desktop {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: 'Hind';
+    letter-spacing: 0;
+    text-decoration: none;
+    text-transform: none;
+}
+@mixin system-hind-body-3-regular-desktop {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    font-family: 'Hind';
+    letter-spacing: 0;
+    text-decoration: none;
+    text-transform: none;
+}
+@mixin system-hind-body-3-semi-bold-desktop {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    font-family: 'Hind';
+    letter-spacing: 0;
+    text-decoration: none;
+    text-transform: none;
+}
+@mixin system-hind-body-4-regular-desktop {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    font-family: 'Hind';
+    letter-spacing: 0;
+    text-decoration: none;
+    text-transform: none;
+}
+@mixin system-hind-body-4-semi-bold-desktop {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    font-family: 'Hind';
+    letter-spacing: 0;
+    text-decoration: none;
+    text-transform: none;
+}
+@mixin system-hind-label-1-regular-desktop {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    font-family: 'Hind';
+    letter-spacing: 0;
+    text-decoration: none;
+    text-transform: none;
+}
+@mixin system-hind-label-1-semi-bold-desktop {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    font-family: 'Hind';
+    letter-spacing: 0;
+    text-decoration: none;
+    text-transform: none;
+}
+@mixin system-hind-label-2-regular-desktop {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    font-family: 'Hind';
+    letter-spacing: 0;
+    text-decoration: none;
+    text-transform: none;
+}
+@mixin system-hind-label-2-semi-bold-desktop {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    font-family: 'Hind';
+    letter-spacing: 0;
+    text-decoration: none;
+    text-transform: none;
+}
+@mixin system-hind-label-3-regular-desktop {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: 'Hind';
+    letter-spacing: 0;
+    text-decoration: none;
+    text-transform: none;
+}
+@mixin system-hind-label-3-semi-bold-desktop {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: 'Hind';
+    letter-spacing: 0;
+    text-decoration: none;
+    text-transform: none;
+}
+@mixin system-hind-label-4-regular-desktop {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    font-family: 'Hind';
+    letter-spacing: 0;
+    text-decoration: none;
+    text-transform: none;
+}
+@mixin system-hind-label-4-semi-bold-desktop {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    font-family: 'Hind';
+    letter-spacing: 0;
+    text-decoration: none;
+    text-transform: none;
+}
+@mixin system-hind-label-5-regular-desktop {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    font-family: 'Hind';
+    letter-spacing: 0;
+    text-decoration: none;
+    text-transform: none;
+}
+@mixin system-hind-label-5-semi-bold-desktop {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    font-family: 'Hind';
+    letter-spacing: 0;
+    text-decoration: none;
+    text-transform: none;
+}
+@mixin system-hind-caption-desktop {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    font-family: 'Hind';
+    letter-spacing: 0;
+    text-decoration: none;
+    text-transform: none;
+}
+@mixin system-hind-link-inline-1-desktop {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: 'Hind';
+    letter-spacing: 0;
+    text-decoration: underline;
+    text-transform: none;
+}
+@mixin system-hind-link-inline-2-desktop {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    font-family: 'Hind';
+    letter-spacing: 0;
+    text-decoration: underline;
+    text-transform: none;
+}
+@mixin system-hind-link-inline-3-desktop {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    font-family: 'Hind';
+    letter-spacing: 0;
+    text-decoration: underline;
+    text-transform: none;
+}
+@mixin system-hind-link-standalone-1-desktop {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: 'Hind';
+    letter-spacing: 0;
+    text-decoration: none;
+    text-transform: none;
+}
+@mixin system-hind-link-standalone-2-desktop {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    font-family: 'Hind';
+    letter-spacing: 0;
+    text-decoration: none;
+    text-transform: none;
+}
+@mixin system-hind-link-standalone-3-desktop {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    font-family: 'Hind';
+    letter-spacing: 0;
+    text-decoration: none;
+    text-transform: none;
+}

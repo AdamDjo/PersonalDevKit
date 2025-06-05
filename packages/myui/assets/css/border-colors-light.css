@@ -1,0 +1,62 @@
+/**
+ * Do not edit directly
+ * Generated on Mon, 05 Aug 2024 10:09:45 GMT
+ */
+
+:root[data-theme="light-theme"], *[data-theme="light-theme"] {
+  --theme-border-border: #ebebeb;
+  --theme-border-border-opaque: #d6d6d6;
+  --theme-border-border-active: #000000;
+  --theme-border-accordion-accordion: #ebebeb;
+  --theme-border-accordion-accordion-divider: #ebebeb;
+  --theme-border-button-icon-secondary-button-icon-secondary: #00000033;
+  --theme-border-button-tabs-button-tabs-default: #ebebeb;
+  --theme-border-button-tabs-button-tabs-selected: #dc314e;
+  --theme-border-card-infobanner-card-infobanner: #ebebeb;
+  --theme-border-checkbox-checkbox: #181818;
+  --theme-border-checkbox-field-checkbox-field: #d6d6d6;
+  --theme-border-checkbox-field-checkbox-field-active: #000000;
+  --theme-border-civility-input-field-civility-input-field-default: #d6d6d6;
+  --theme-border-civility-input-field-civility-input-field-active: #000000;
+  --theme-border-civility-input-field-civility-input-field-disabled: #d6d6d6;
+  --theme-border-civility-input-field-civility-input-field-divider: #d6d6d6;
+  --theme-border-credit-card-input-field-credit-card-input-field-default: #d6d6d6;
+  --theme-border-credit-card-input-field-credit-card-input-field-active: #000000;
+  --theme-border-credit-card-input-field-credit-card-input-field-disabled: #d6d6d6;
+  --theme-border-footer-footer: #ebebeb;
+  --theme-border-footer-footer-divider: #d6d6d6;
+  --theme-border-header-header: #ebebeb;
+  --theme-border-iban-input-field-iban-input-field-default: #d6d6d6;
+  --theme-border-iban-input-field-iban-input-field-active: #000000;
+  --theme-border-iban-input-field-iban-input-field-disabled: #d6d6d6;
+  --theme-border-list-row-list-row: #d6d6d6;
+  --theme-border-list-row-divider: #ebebeb;
+  --theme-border-mm-yy-ccv-input-field-mm-yy-ccv-input-field-default: #d6d6d6;
+  --theme-border-mm-yy-ccv-input-field-mm-yy-ccv-input-field-active: #000000;
+  --theme-border-mm-yy-ccv-input-field-mm-yy-ccv-input-field-disabled: #d6d6d6;
+  --theme-border-number-access-input-field-number-access-input-field-default: #d6d6d6;
+  --theme-border-number-access-input-field-number-access-input-field-active: #000000;
+  --theme-border-number-access-input-field-number-access-input-field-disabled: #d6d6d6;
+  --theme-border-offer-tag-offer-tag: #000000;
+  --theme-border-offer-card-offer-card: #363636;
+  --theme-border-password-input-field-password-input-field-default: #d6d6d6;
+  --theme-border-password-input-field-password-input-field-active: #000000;
+  --theme-border-password-input-field-password-input-field-disabled: #d6d6d6;
+  --theme-border-profile-card-divider: #ebebeb;
+  --theme-border-radio-button-radio-button: #181818;
+  --theme-border-radio-button-field-radio-button-field: #d6d6d6;
+  --theme-border-radio-button-field-radio-button-field-active: #000000;
+  --theme-border-select-input-field-select-input-field-default: #d6d6d6;
+  --theme-border-select-input-field-select-input-field-active: #000000;
+  --theme-border-select-input-field-select-input-field-disabled: #d6d6d6;
+  --theme-border-select-input-option-field-select-input-option-field-default: #d6d6d6;
+  --theme-border-select-input-option-field-select-input-option-field-hover: #d6d6d6;
+  --theme-border-text-input-field-text-input-field-default: #d6d6d6;
+  --theme-border-text-input-field-text-input-field-active: #000000;
+  --theme-border-text-input-field-text-input-field-disabled: #d6d6d6;
+  --theme-border-textarea-input-field-textarea-input-field-default: #d6d6d6;
+  --theme-border-textarea-input-field-textarea-input-field-active: #000000;
+  --theme-border-textarea-input-field-textarea-input-field-disabled: #d6d6d6;
+  --theme-border-toggle-switch-field-toggle-switch-field-active: #000000;
+  --theme-border-toggle-switch-field-toggle-switch-field: #d6d6d6;
+}

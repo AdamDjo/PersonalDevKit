@@ -1,0 +1,361 @@
+$theme-text-text-10: var(--theme-text-text-10);
+$theme-text-text-30: var(--theme-text-text-30);
+$theme-text-text-50: var(--theme-text-text-50);
+$theme-text-text-70: var(--theme-text-text-70);
+$theme-text-text-80: var(--theme-text-text-80);
+$theme-text-text-100: var(--theme-text-text-100);
+$theme-text-primary-accent: var(--theme-text-primary-accent);
+$theme-text-primary-accent-hover: var(--theme-text-primary-accent-hover);
+$theme-text-primary-accent-pressed: var(--theme-text-primary-accent-pressed);
+$theme-text-secondary-secondary: var(--theme-text-secondary-secondary);
+$theme-text-secondary-secondary-hover: var(--theme-text-secondary-secondary-hover);
+$theme-text-secondary-secondary-pressed: var(--theme-text-secondary-secondary-pressed);
+$theme-text-semantic-error: var(--theme-text-semantic-error);
+$theme-text-semantic-warning: var(--theme-text-semantic-warning);
+$theme-text-semantic-success: var(--theme-text-semantic-success);
+$theme-text-semantic-info: var(--theme-text-semantic-info);
+$theme-text-context-live: var(--theme-text-context-live);
+$theme-text-accordion-accordion-title: var(--theme-text-accordion-accordion-title);
+$theme-text-accordion-accordion-body: var(--theme-text-accordion-accordion-body);
+$theme-text-activation-card-activation-card: var(--theme-text-activation-card-activation-card);
+$theme-text-alert-box-alert-box: var(--theme-text-alert-box-alert-box);
+$theme-text-avatar-avatar: var(--theme-text-avatar-avatar);
+$theme-text-avatar-strate-tiles-avatar-strate-tiles-title: var(
+    --theme-text-avatar-strate-tiles-avatar-strate-tiles-title
+);
+$theme-text-bottom-app-bar-bottom-app-bar-text: var(
+    --theme-text-bottom-app-bar-bottom-app-bar-text
+);
+$theme-text-bottom-app-bar-bottom-app-bar-text-accent: var(
+    --theme-text-bottom-app-bar-bottom-app-bar-text-accent
+);
+$theme-text-button-primary-primary: var(--theme-text-button-primary-primary);
+$theme-text-button-secondary-secondary: var(--theme-text-button-secondary-secondary);
+$theme-text-button-tertiary-tertiary: var(--theme-text-button-tertiary-tertiary);
+$theme-text-button-text-accent-default: var(--theme-text-button-text-accent-default);
+$theme-text-button-text-accent-hover: var(--theme-text-button-text-accent-hover);
+$theme-text-button-text-accent-pressed: var(--theme-text-button-text-accent-pressed);
+$theme-text-button-text-secondary-default: var(--theme-text-button-text-secondary-default);
+$theme-text-button-text-secondary-hover: var(--theme-text-button-text-secondary-hover);
+$theme-text-button-text-secondary-pressed: var(--theme-text-button-text-secondary-pressed);
+$theme-text-button-icon-button-icon: var(--theme-text-button-icon-button-icon);
+$theme-text-button-icon-button-icon-hover: var(--theme-text-button-icon-button-icon-hover);
+$theme-text-button-tabs-button-tabs-default: var(--theme-text-button-tabs-button-tabs-default);
+$theme-text-button-tabs-button-tabs-selected: var(--theme-text-button-tabs-button-tabs-selected);
+$theme-text-card-detailed-tile-card-tile-title: var(
+    --theme-text-card-detailed-tile-card-tile-title
+);
+$theme-text-card-detailed-tile-card-tile-body: var(--theme-text-card-detailed-tile-card-tile-body);
+$theme-text-card-detailed-tile-card-tile-link-description: var(
+    --theme-text-card-detailed-tile-card-tile-link-description
+);
+$theme-text-card-tile-card-tile-title: var(--theme-text-card-tile-card-tile-title);
+$theme-text-card-tile-card-tile-body: var(--theme-text-card-tile-card-tile-body);
+$theme-text-card-tile-card-tile-link-accent: var(--theme-text-card-tile-card-tile-link-accent);
+$theme-text-card-infobanner-card-infobanner-title: var(
+    --theme-text-card-infobanner-card-infobanner-title
+);
+$theme-text-card-infobanner-card-infobanner-body: var(
+    --theme-text-card-infobanner-card-infobanner-body
+);
+$theme-text-card-item-alert-card-item-alert-title: var(
+    --theme-text-card-item-alert-card-item-alert-title
+);
+$theme-text-card-item-alert-card-item-alert-body: var(
+    --theme-text-card-item-alert-card-item-alert-body
+);
+$theme-text-card-item-countdown-card-item-countdown: var(
+    --theme-text-card-item-countdown-card-item-countdown
+);
+$theme-text-card-item-advantages-card-item-advantages-price-tag: var(
+    --theme-text-card-item-advantages-card-item-advantages-price-tag
+);
+$theme-text-card-item-advantages-card-item-advantages-promotion-tag: var(
+    --theme-text-card-item-advantages-card-item-advantages-promotion-tag
+);
+$theme-text-card-tab-card-tab: var(--theme-text-card-tab-card-tab);
+$theme-text-card-tab-list-title: var(--theme-text-card-tab-list-title);
+$theme-text-card-timeline-facts-body: var(--theme-text-card-timeline-facts-body);
+$theme-text-card-timeline-vote-versus-card-timeline-vote-versus-title: var(
+    --theme-text-card-timeline-vote-versus-card-timeline-vote-versus-title
+);
+$theme-text-card-timeline-vote-versus-card-timeline-vote-versus-label: var(
+    --theme-text-card-timeline-vote-versus-card-timeline-vote-versus-label
+);
+$theme-text-checkbox-checkbox-label: var(--theme-text-checkbox-checkbox-label);
+$theme-text-checkbox-checkbox-label-disabled: var(--theme-text-checkbox-checkbox-label-disabled);
+$theme-text-checkbox-checkbox-sublabel: var(--theme-text-checkbox-checkbox-sublabel);
+$theme-text-checkbox-checkbox-sublabel-disabled: var(
+    --theme-text-checkbox-checkbox-sublabel-disabled
+);
+$theme-text-civility-input-field-civility-input-field: var(
+    --theme-text-civility-input-field-civility-input-field
+);
+$theme-text-civility-input-field-civility-input-field-active: var(
+    --theme-text-civility-input-field-civility-input-field-active
+);
+$theme-text-civility-input-field-civility-input-field-disabled: var(
+    --theme-text-civility-input-field-civility-input-field-disabled
+);
+$theme-text-civility-input-field-civility-input-field-hint: var(
+    --theme-text-civility-input-field-civility-input-field-hint
+);
+$theme-text-credit-card-input-field-credit-card-input-field: var(
+    --theme-text-credit-card-input-field-credit-card-input-field
+);
+$theme-text-credit-card-input-field-credit-card-input-field-active: var(
+    --theme-text-credit-card-input-field-credit-card-input-field-active
+);
+$theme-text-credit-card-input-field-credit-card-input-field-disabled: var(
+    --theme-text-credit-card-input-field-credit-card-input-field-disabled
+);
+$theme-text-credit-card-input-field-credit-card-input-field-label: var(
+    --theme-text-credit-card-input-field-credit-card-input-field-label
+);
+$theme-text-download-list-download-list-title: var(--theme-text-download-list-download-list-title);
+$theme-text-download-list-download-list-subtitle: var(
+    --theme-text-download-list-download-list-subtitle
+);
+$theme-text-download-list-download-list-subtitle-accent: var(
+    --theme-text-download-list-download-list-subtitle-accent
+);
+$theme-text-episode-list-episode-list-description: var(
+    --theme-text-episode-list-episode-list-description
+);
+$theme-text-filter-tabs-filter-tabs-default: var(--theme-text-filter-tabs-filter-tabs-default);
+$theme-text-filter-tabs-filter-tabs-hover: var(--theme-text-filter-tabs-filter-tabs-hover);
+$theme-text-filter-tabs-filter-tabs-selected: var(--theme-text-filter-tabs-filter-tabs-selected);
+$theme-text-footer-footer: var(--theme-text-footer-footer);
+$theme-text-footer-footer-hover: var(--theme-text-footer-footer-hover);
+$theme-text-footer-footer-secondary: var(--theme-text-footer-footer-secondary);
+$theme-text-footer-footer-title: var(--theme-text-footer-footer-title);
+$theme-text-footer-footer-country: var(--theme-text-footer-footer-country);
+$theme-text-footer-footer-brand: var(--theme-text-footer-footer-brand);
+$theme-text-gabarit-list-gabarit-list-enabled: var(--theme-text-gabarit-list-gabarit-list-enabled);
+$theme-text-gabarit-list-gabarit-list-active: var(--theme-text-gabarit-list-gabarit-list-active);
+$theme-text-gabarit-list-gabarit-list-selected: var(
+    --theme-text-gabarit-list-gabarit-list-selected
+);
+$theme-text-gabarit-list-gabarit-list-unselected: var(
+    --theme-text-gabarit-list-gabarit-list-unselected
+);
+$theme-text-gabarit-list-gabarit-list-accent: var(--theme-text-gabarit-list-gabarit-list-accent);
+$theme-text-header-header-default: var(--theme-text-header-header-default);
+$theme-text-header-header-disabled: var(--theme-text-header-header-disabled);
+$theme-text-header-header-active: var(--theme-text-header-header-active);
+$theme-text-iban-input-field-iban-input-field: var(--theme-text-iban-input-field-iban-input-field);
+$theme-text-iban-input-field-iban-input-field-active: var(
+    --theme-text-iban-input-field-iban-input-field-active
+);
+$theme-text-iban-input-field-iban-input-field-disabled: var(
+    --theme-text-iban-input-field-iban-input-field-disabled
+);
+$theme-text-iban-input-field-iban-input-field-label: var(
+    --theme-text-iban-input-field-iban-input-field-label
+);
+$theme-text-input-field-alert-input-field-alert: var(
+    --theme-text-input-field-alert-input-field-alert
+);
+$theme-text-list-row-list-title: var(--theme-text-list-row-list-title);
+$theme-text-list-row-list-description: var(--theme-text-list-row-list-description);
+$theme-text-list-row-list-row-title: var(--theme-text-list-row-list-row-title);
+$theme-text-list-row-list-row-subtitle: var(--theme-text-list-row-list-row-subtitle);
+$theme-text-list-row-list-row-label: var(--theme-text-list-row-list-row-label);
+$theme-text-list-row-list-row-price: var(--theme-text-list-row-list-row-price);
+$theme-text-list-row-list-row-promotion: var(--theme-text-list-row-list-row-promotion);
+$theme-text-list-row-link: var(--theme-text-list-row-link);
+$theme-text-list-row-list-row-title-disabled: var(--theme-text-list-row-list-row-title-disabled);
+$theme-text-list-row-list-row-subtitle-disabled: var(
+    --theme-text-list-row-list-row-subtitle-disabled
+);
+$theme-text-list-row-list-row-label-disabled: var(--theme-text-list-row-list-row-label-disabled);
+$theme-text-list-row-list-row-price-disabled: var(--theme-text-list-row-list-row-price-disabled);
+$theme-text-list-row-list-row-promotion-disabled: var(
+    --theme-text-list-row-list-row-promotion-disabled
+);
+$theme-text-list-row-link-disabled: var(--theme-text-list-row-link-disabled);
+$theme-text-list-timeline-vote-list-timeline-vote-title: var(
+    --theme-text-list-timeline-vote-list-timeline-vote-title
+);
+$theme-text-list-timeline-vote-list-timeline-vote-label: var(
+    --theme-text-list-timeline-vote-list-timeline-vote-label
+);
+$theme-text-media-block-media-block-subtitle: var(--theme-text-media-block-media-block-subtitle);
+$theme-text-media-block-media-block-description: var(
+    --theme-text-media-block-media-block-description
+);
+$theme-text-media-block-media-block-title: var(--theme-text-media-block-media-block-title);
+$theme-text-media-strate-tiles-media-strate-tiles-title: var(
+    --theme-text-media-strate-tiles-media-strate-tiles-title
+);
+$theme-text-media-strate-tiles-media-strate-tiles-subtitle: var(
+    --theme-text-media-strate-tiles-media-strate-tiles-subtitle
+);
+$theme-text-media-top-10-ranking-media-top-10-ranking-number: var(
+    --theme-text-media-top-10-ranking-media-top-10-ranking-number
+);
+$theme-text-mm-yy-ccv-input-field-mm-yy-ccv-input-field: var(
+    --theme-text-mm-yy-ccv-input-field-mm-yy-ccv-input-field
+);
+$theme-text-mm-yy-ccv-input-field-mm-yy-ccv-input-field-active: var(
+    --theme-text-mm-yy-ccv-input-field-mm-yy-ccv-input-field-active
+);
+$theme-text-mm-yy-ccv-input-field-mm-yy-ccv-input-field-disabled: var(
+    --theme-text-mm-yy-ccv-input-field-mm-yy-ccv-input-field-disabled
+);
+$theme-text-mm-yy-ccv-input-field-mm-yy-ccv-input-field-label: var(
+    --theme-text-mm-yy-ccv-input-field-mm-yy-ccv-input-field-label
+);
+$theme-text-modal-modal-text: var(--theme-text-modal-modal-text);
+$theme-text-modal-modal-text-accent: var(--theme-text-modal-modal-text-accent);
+$theme-text-number-access-input-field-number-access-input-field: var(
+    --theme-text-number-access-input-field-number-access-input-field
+);
+$theme-text-number-access-input-field-number-access-input-field-active: var(
+    --theme-text-number-access-input-field-number-access-input-field-active
+);
+$theme-text-number-access-input-field-number-access-input-field-disabled: var(
+    --theme-text-number-access-input-field-number-access-input-field-disabled
+);
+$theme-text-number-access-input-field-number-access-input-field-hint: var(
+    --theme-text-number-access-input-field-number-access-input-field-hint
+);
+$theme-text-offer-tag-badge: var(--theme-text-offer-tag-badge);
+$theme-text-offer-card-offer-card-title: var(--theme-text-offer-card-offer-card-title);
+$theme-text-offer-card-offer-card-body: var(--theme-text-offer-card-offer-card-body);
+$theme-text-offer-card-offer-card-note: var(--theme-text-offer-card-offer-card-note);
+$theme-text-offer-card-offer-card-price: var(--theme-text-offer-card-offer-card-price);
+$theme-text-offer-card-offer-card-price-description: var(
+    --theme-text-offer-card-offer-card-price-description
+);
+$theme-text-offer-card-offer-card-price-advantage: var(
+    --theme-text-offer-card-offer-card-price-advantage
+);
+$theme-text-password-input-field-password-input-field: var(
+    --theme-text-password-input-field-password-input-field
+);
+$theme-text-password-input-field-password-input-field-active: var(
+    --theme-text-password-input-field-password-input-field-active
+);
+$theme-text-password-input-field-password-input-field-disabled: var(
+    --theme-text-password-input-field-password-input-field-disabled
+);
+$theme-text-password-input-field-password-input-field-hint: var(
+    --theme-text-password-input-field-password-input-field-hint
+);
+$theme-text-password-input-field-password-input-field-label: var(
+    --theme-text-password-input-field-password-input-field-label
+);
+$theme-text-profile-card-accent: var(--theme-text-profile-card-accent);
+$theme-text-radio-button-radio-label: var(--theme-text-radio-button-radio-label);
+$theme-text-radio-button-radio-label-disabled: var(--theme-text-radio-button-radio-label-disabled);
+$theme-text-radio-button-radio-sublabel: var(--theme-text-radio-button-radio-sublabel);
+$theme-text-radio-button-radio-sublabel-disabled: var(
+    --theme-text-radio-button-radio-sublabel-disabled
+);
+$theme-text-search-field-search-field: var(--theme-text-search-field-search-field);
+$theme-text-search-field-search-field-filled: var(--theme-text-search-field-search-field-filled);
+$theme-text-search-field-search-field-accent: var(--theme-text-search-field-search-field-accent);
+$theme-text-search-field-search-field-cursor: var(--theme-text-search-field-search-field-cursor);
+$theme-text-search-field-ios-search-field: var(--theme-text-search-field-ios-search-field);
+$theme-text-search-field-ios-search-field-filled: var(
+    --theme-text-search-field-ios-search-field-filled
+);
+$theme-text-search-field-ios-search-field-accent: var(
+    --theme-text-search-field-ios-search-field-accent
+);
+$theme-text-search-field-ios-search-field-cursor: var(
+    --theme-text-search-field-ios-search-field-cursor
+);
+$theme-text-season-selector-season-selector: var(--theme-text-season-selector-season-selector);
+$theme-text-season-selector-season-selector-selected: var(
+    --theme-text-season-selector-season-selector-selected
+);
+$theme-text-segmented-control-segmented-control: var(
+    --theme-text-segmented-control-segmented-control
+);
+$theme-text-segmented-control-segmented-control-accent: var(
+    --theme-text-segmented-control-segmented-control-accent
+);
+$theme-text-select-input-field-select-input-field: var(
+    --theme-text-select-input-field-select-input-field
+);
+$theme-text-select-input-field-select-input-field-active: var(
+    --theme-text-select-input-field-select-input-field-active
+);
+$theme-text-select-input-field-select-input-field-disabled: var(
+    --theme-text-select-input-field-select-input-field-disabled
+);
+$theme-text-select-input-field-select-input-field-label: var(
+    --theme-text-select-input-field-select-input-field-label
+);
+$theme-text-select-input-field-select-input-field-label-disabled: var(
+    --theme-text-select-input-field-select-input-field-label-disabled
+);
+$theme-text-select-input-option-field-select-input-option-field: var(
+    --theme-text-select-input-option-field-select-input-option-field
+);
+$theme-text-status-bar-android-status-bar-text: var(
+    --theme-text-status-bar-android-status-bar-text
+);
+$theme-text-status-bar-ios-status-bar-text: var(--theme-text-status-bar-ios-status-bar-text);
+$theme-text-sticker-sticker-free-to-air: var(--theme-text-sticker-sticker-free-to-air);
+$theme-text-sticker-sticker-date: var(--theme-text-sticker-sticker-date);
+$theme-text-sticker-sticker-last-days: var(--theme-text-sticker-sticker-last-days);
+$theme-text-sticker-sticker-live: var(--theme-text-sticker-sticker-live);
+$theme-text-sticker-sticker-offered-content: var(--theme-text-sticker-sticker-offered-content);
+$theme-text-sticker-sticker-order: var(--theme-text-sticker-sticker-order);
+$theme-text-sticker-sticker-get: var(--theme-text-sticker-sticker-get);
+$theme-text-sticker-sticker-subscribe: var(--theme-text-sticker-sticker-subscribe);
+$theme-text-tabs-tabs: var(--theme-text-tabs-tabs);
+$theme-text-tabs-tabs-disabled: var(--theme-text-tabs-tabs-disabled);
+$theme-text-tabs-tabs-accent: var(--theme-text-tabs-tabs-accent);
+$theme-text-text-input-field-text-input-field: var(--theme-text-text-input-field-text-input-field);
+$theme-text-text-input-field-text-input-field-active: var(
+    --theme-text-text-input-field-text-input-field-active
+);
+$theme-text-text-input-field-text-input-field-disabled: var(
+    --theme-text-text-input-field-text-input-field-disabled
+);
+$theme-text-text-input-field-text-input-field-label: var(
+    --theme-text-text-input-field-text-input-field-label
+);
+$theme-text-textarea-input-field-textarea-input-field: var(
+    --theme-text-textarea-input-field-textarea-input-field
+);
+$theme-text-textarea-input-field-textarea-input-field-active: var(
+    --theme-text-textarea-input-field-textarea-input-field-active
+);
+$theme-text-textarea-input-field-textarea-input-field-filled: var(
+    --theme-text-textarea-input-field-textarea-input-field-filled
+);
+$theme-text-textarea-input-field-textarea-input-field-disabled: var(
+    --theme-text-textarea-input-field-textarea-input-field-disabled
+);
+$theme-text-textarea-input-field-textarea-input-field-hint: var(
+    --theme-text-textarea-input-field-textarea-input-field-hint
+);
+$theme-text-textarea-input-field-textarea-input-field-hint-disabled: var(
+    --theme-text-textarea-input-field-textarea-input-field-hint-disabled
+);
+$theme-text-textarea-input-field-textarea-input-field-label: var(
+    --theme-text-textarea-input-field-textarea-input-field-label
+);
+$theme-text-textarea-input-field-textarea-input-field-label-disabled: var(
+    --theme-text-textarea-input-field-textarea-input-field-label-disabled
+);
+$theme-text-toggle-switch-toggle-switch-label: var(--theme-text-toggle-switch-toggle-switch-label);
+$theme-text-toggle-switch-toggle-switch-label-disabled: var(
+    --theme-text-toggle-switch-toggle-switch-label-disabled
+);
+$theme-text-toggle-switch-toggle-switch-sublabel: var(
+    --theme-text-toggle-switch-toggle-switch-sublabel
+);
+$theme-text-toggle-switch-toggle-switch-sublabel-disabled: var(
+    --theme-text-toggle-switch-toggle-switch-sublabel-disabled
+);
+$theme-text-tooltip-tooltip: var(--theme-text-tooltip-tooltip);
+$theme-text-top-app-bar-top-app-bar-text: var(--theme-text-top-app-bar-top-app-bar-text);
+$theme-text-top-app-bar-top-app-bar-text-accent: var(
+    --theme-text-top-app-bar-top-app-bar-text-accent
+);

@@ -1,0 +1,168 @@
+$theme-background-background: var(--theme-background-background);
+$theme-background-avatar-avatar: var(--theme-background-avatar-avatar);
+$theme-background-avatar-avatar-profile: var(--theme-background-avatar-avatar-profile);
+$theme-background-button-primary-accent: var(--theme-background-button-primary-accent);
+$theme-background-button-primary-accent-hover: var(--theme-background-button-primary-accent-hover);
+$theme-background-button-primary-accent-pressed: var(
+    --theme-background-button-primary-accent-pressed
+);
+$theme-background-button-secondary-secondary: var(--theme-background-button-secondary-secondary);
+$theme-background-button-secondary-secondary-hover: var(
+    --theme-background-button-secondary-secondary-hover
+);
+$theme-background-button-secondary-secondary-pressed: var(
+    --theme-background-button-secondary-secondary-pressed
+);
+$theme-background-button-tertiary-tertiary: var(--theme-background-button-tertiary-tertiary);
+$theme-background-button-tertiary-tertiary-hover: var(
+    --theme-background-button-tertiary-tertiary-hover
+);
+$theme-background-button-tertiary-tertiary-pressed: var(
+    --theme-background-button-tertiary-tertiary-pressed
+);
+$theme-background-button-icon-button-icon-primary: var(
+    --theme-background-button-icon-button-icon-primary
+);
+$theme-background-button-icon-button-icon-primary-hover: var(
+    --theme-background-button-icon-button-icon-primary-hover
+);
+$theme-background-button-icon-button-icon-secondary: var(
+    --theme-background-button-icon-button-icon-secondary
+);
+$theme-background-button-icon-button-icon-tertiary: var(
+    --theme-background-button-icon-button-icon-tertiary
+);
+$theme-background-button-icon-back-button-icon-back: var(
+    --theme-background-button-icon-back-button-icon-back
+);
+$theme-background-button-icon-close-button-icon-close: var(
+    --theme-background-button-icon-close-button-icon-close
+);
+$theme-background-button-icon-media-block-button-icon-media-block: var(
+    --theme-background-button-icon-media-block-button-icon-media-block
+);
+$theme-background-button-icon-mood-button-icon-mood-default: var(
+    --theme-background-button-icon-mood-button-icon-mood-default
+);
+$theme-background-button-icon-mood-button-icon-mood-hover: var(
+    --theme-background-button-icon-mood-button-icon-mood-hover
+);
+$theme-background-button-icon-video-button-icon-video: var(
+    --theme-background-button-icon-video-button-icon-video
+);
+$theme-background-button-logo-button-logo: var(--theme-background-button-logo-button-logo);
+$theme-background-card-timeline-vote-versus-card-timeline-vote-versus-default: var(
+    --theme-background-card-timeline-vote-versus-card-timeline-vote-versus-default
+);
+$theme-background-card-timeline-vote-versus-card-timeline-vote-versus-success: var(
+    --theme-background-card-timeline-vote-versus-card-timeline-vote-versus-success
+);
+$theme-background-checkbox-checkbox: var(--theme-background-checkbox-checkbox);
+$theme-background-civility-input-field-hint-error: var(
+    --theme-background-civility-input-field-hint-error
+);
+$theme-background-civility-input-field-icon-error: var(
+    --theme-background-civility-input-field-icon-error
+);
+$theme-background-episode-list-episode-list-icon-check: var(
+    --theme-background-episode-list-episode-list-icon-check
+);
+$theme-background-episode-list-button-icon-episode-list: var(
+    --theme-background-episode-list-button-icon-episode-list
+);
+$theme-background-episode-list-episode-list-unavailable: var(
+    --theme-background-episode-list-episode-list-unavailable
+);
+$theme-background-footer-footer: var(--theme-background-footer-footer);
+$theme-background-gabarit-list-gabarit-list: var(--theme-background-gabarit-list-gabarit-list);
+$theme-background-header-header: var(--theme-background-header-header);
+$theme-background-icon-kids: var(--theme-background-icon-kids);
+$theme-background-icon-edit: var(--theme-background-icon-edit);
+$theme-background-icon-start-over: var(--theme-background-icon-start-over);
+$theme-background-icon-play-button: var(--theme-background-icon-play-button);
+$theme-background-icon-valid: var(--theme-background-icon-valid);
+$theme-background-icon-alert: var(--theme-background-icon-alert);
+$theme-background-icon-info: var(--theme-background-icon-info);
+$theme-background-icon-info-default: var(--theme-background-icon-info-default);
+$theme-background-icon-info-message: var(--theme-background-icon-info-message);
+$theme-background-icon-error: var(--theme-background-icon-error);
+$theme-background-icon-error-download: var(--theme-background-icon-error-download);
+$theme-background-icon-add-filled: var(--theme-background-icon-add-filled);
+$theme-background-icon-upgrade: var(--theme-background-icon-upgrade);
+$theme-background-icon-download-on: var(--theme-background-icon-download-on);
+$theme-background-icon-rating-tertiary: var(--theme-background-icon-rating-tertiary);
+$theme-background-icon-alert-box-alert-box: var(--theme-background-icon-alert-box-alert-box);
+$theme-background-icon-alert-box-alert-box-error: var(
+    --theme-background-icon-alert-box-alert-box-error
+);
+$theme-background-icon-alert-box-alert-box-warning: var(
+    --theme-background-icon-alert-box-alert-box-warning
+);
+$theme-background-icon-alert-box-alert-box-success: var(
+    --theme-background-icon-alert-box-alert-box-success
+);
+$theme-background-icon-alert-box-alert-box-info: var(
+    --theme-background-icon-alert-box-alert-box-info
+);
+$theme-background-icon-input-field-alert-icon-input-field-alert: var(
+    --theme-background-icon-input-field-alert-icon-input-field-alert
+);
+$theme-background-icon-input-field-alert-icon-input-field-alert-error: var(
+    --theme-background-icon-input-field-alert-icon-input-field-alert-error
+);
+$theme-background-icon-input-field-alert-icon-input-field-alert-warning: var(
+    --theme-background-icon-input-field-alert-icon-input-field-alert-warning
+);
+$theme-background-icon-input-field-alert-icon-input-field-alert-success: var(
+    --theme-background-icon-input-field-alert-icon-input-field-alert-success
+);
+$theme-background-icon-input-field-alert-icon-input-field-alert-info: var(
+    --theme-background-icon-input-field-alert-icon-input-field-alert-info
+);
+$theme-background-icon-live-grid-icon-live-grid: var(
+    --theme-background-icon-live-grid-icon-live-grid
+);
+$theme-background-icon-nav-button-icon-nav-button: var(
+    --theme-background-icon-nav-button-icon-nav-button
+);
+$theme-background-list-row-check: var(--theme-background-list-row-check);
+$theme-background-list-timeline-vote-list-timeline-vote-default: var(
+    --theme-background-list-timeline-vote-list-timeline-vote-default
+);
+$theme-background-list-timeline-vote-list-timeline-vote-success: var(
+    --theme-background-list-timeline-vote-list-timeline-vote-success
+);
+$theme-background-load-media-placeholder-load-media-placeholder: var(
+    --theme-background-load-media-placeholder-load-media-placeholder
+);
+$theme-background-number-access-input-field-bullet: var(
+    --theme-background-number-access-input-field-bullet
+);
+$theme-background-offer-card-offer-card-icon: var(--theme-background-offer-card-offer-card-icon);
+$theme-background-password-input-field-bullet: var(--theme-background-password-input-field-bullet);
+$theme-background-profile-card-profile-card-icon: var(
+    --theme-background-profile-card-profile-card-icon
+);
+$theme-background-progressbar-progressbar: var(--theme-background-progressbar-progressbar);
+$theme-background-progressbar-progressbar-forced-dark: var(
+    --theme-background-progressbar-progressbar-forced-dark
+);
+$theme-background-radio-button-radio-button: var(--theme-background-radio-button-radio-button);
+$theme-background-toggle-switch-toggle-switch-on: var(
+    --theme-background-toggle-switch-toggle-switch-on
+);
+$theme-background-toggle-switch-toggle-switch-off: var(
+    --theme-background-toggle-switch-toggle-switch-off
+);
+$theme-background-toggle-switch-android-toggle-switch-on-android: var(
+    --theme-background-toggle-switch-android-toggle-switch-on-android
+);
+$theme-background-toggle-switch-android-toggle-switch-off-android: var(
+    --theme-background-toggle-switch-android-toggle-switch-off-android
+);
+$theme-background-toggle-switch-ios-toggle-switch-on-ios: var(
+    --theme-background-toggle-switch-ios-toggle-switch-on-ios
+);
+$theme-background-toggle-switch-ios-toggle-switch-off-ios: var(
+    --theme-background-toggle-switch-ios-toggle-switch-off-ios
+);

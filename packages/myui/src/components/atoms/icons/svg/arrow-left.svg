@@ -1,0 +1,13 @@
+<svg
+  role="img"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  id="arrow-left"
+  xmlns="http://www.w3.org/2000/svg">
+  <path
+    fill="evenodd"
+    clip="evenodd"
+    d="M13.7706 6L7.25044 12.5L13.7706 19L15 17.7743L9.70933 12.5L15 7.22565L13.7706 6Z"
+  />
+</svg>

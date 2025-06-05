@@ -1,0 +1,133 @@
+$theme-icon-icon: var(--theme-icon-icon);
+$theme-icon-icon-accent: var(--theme-icon-icon-accent);
+$theme-icon-activation-card-activation-card: var(--theme-icon-activation-card-activation-card);
+$theme-icon-alert-box-icon: var(--theme-icon-alert-box-icon);
+$theme-icon-avatar-icon-profile: var(--theme-icon-avatar-icon-profile);
+$theme-icon-avatar-icon: var(--theme-icon-avatar-icon);
+$theme-icon-bottom-app-bar-icon: var(--theme-icon-bottom-app-bar-icon);
+$theme-icon-bottom-app-bar-icon-accent: var(--theme-icon-bottom-app-bar-icon-accent);
+$theme-icon-button-primary-icon: var(--theme-icon-button-primary-icon);
+$theme-icon-button-primary-icon-accent: var(--theme-icon-button-primary-icon-accent);
+$theme-icon-button-primary-icon-accent-hover: var(--theme-icon-button-primary-icon-accent-hover);
+$theme-icon-button-primary-icon-accent-pressed: var(
+    --theme-icon-button-primary-icon-accent-pressed
+);
+$theme-icon-button-secondary-icon: var(--theme-icon-button-secondary-icon);
+$theme-icon-button-tertiary-icon: var(--theme-icon-button-tertiary-icon);
+$theme-icon-button-text-icon-accent-default: var(--theme-icon-button-text-icon-accent-default);
+$theme-icon-button-text-icon-accent-hover: var(--theme-icon-button-text-icon-accent-hover);
+$theme-icon-button-text-icon-accent-pressed: var(--theme-icon-button-text-icon-accent-pressed);
+$theme-icon-button-text-icon-secondary-default: var(
+    --theme-icon-button-text-icon-secondary-default
+);
+$theme-icon-button-text-icon-secondary-hover: var(--theme-icon-button-text-icon-secondary-hover);
+$theme-icon-button-text-icon-secondary-pressed: var(
+    --theme-icon-button-text-icon-secondary-pressed
+);
+$theme-icon-button-icon-icon: var(--theme-icon-button-icon-icon);
+$theme-icon-button-icon-mood-icon-neutral: var(--theme-icon-button-icon-mood-icon-neutral);
+$theme-icon-button-icon-mood-icon-good: var(--theme-icon-button-icon-mood-icon-good);
+$theme-icon-button-icon-mood-icon-bad: var(--theme-icon-button-icon-mood-icon-bad);
+$theme-icon-button-icon-video-icon: var(--theme-icon-button-icon-video-icon);
+$theme-icon-card-item-alert-card-item-alert-default: var(
+    --theme-icon-card-item-alert-card-item-alert-default
+);
+$theme-icon-card-item-alert-card-item-alert-hover: var(
+    --theme-icon-card-item-alert-card-item-alert-hover
+);
+$theme-icon-card-item-alert-card-item-alert-active: var(
+    --theme-icon-card-item-alert-card-item-alert-active
+);
+$theme-icon-card-item-alert-card-item-alert-active-hover: var(
+    --theme-icon-card-item-alert-card-item-alert-active-hover
+);
+$theme-icon-card-infobanner-card-infobanner-icon-accent: var(
+    --theme-icon-card-infobanner-card-infobanner-icon-accent
+);
+$theme-icon-card-item-advantages-card-item-advantages-promotion-tag: var(
+    --theme-icon-card-item-advantages-card-item-advantages-promotion-tag
+);
+$theme-icon-card-item-advantages-card-item-advantages-price-tag: var(
+    --theme-icon-card-item-advantages-card-item-advantages-price-tag
+);
+$theme-icon-card-item-countdown-card-item-countdown: var(
+    --theme-icon-card-item-countdown-card-item-countdown
+);
+$theme-icon-card-tile-card-tile-icon-accent: var(--theme-icon-card-tile-card-tile-icon-accent);
+$theme-icon-card-timeline-vote-versus-icon: var(--theme-icon-card-timeline-vote-versus-icon);
+$theme-icon-carousel-indicator-icon-active: var(--theme-icon-carousel-indicator-icon-active);
+$theme-icon-carousel-indicator-icon-inactive: var(--theme-icon-carousel-indicator-icon-inactive);
+$theme-icon-checkbox-icon: var(--theme-icon-checkbox-icon);
+$theme-icon-checkbox-icon-error: var(--theme-icon-checkbox-icon-error);
+$theme-icon-civility-input-field-icon: var(--theme-icon-civility-input-field-icon);
+$theme-icon-credit-card-input-field-icon: var(--theme-icon-credit-card-input-field-icon);
+$theme-icon-download-list-icon: var(--theme-icon-download-list-icon);
+$theme-icon-download-list-icon-accent: var(--theme-icon-download-list-icon-accent);
+$theme-icon-download-list-icon-chevron: var(--theme-icon-download-list-icon-chevron);
+$theme-icon-download-list-icon-native: var(--theme-icon-download-list-icon-native);
+$theme-icon-episode-list-button-icon-icon: var(--theme-icon-episode-list-button-icon-icon);
+$theme-icon-episode-list-check-icon: var(--theme-icon-episode-list-check-icon);
+$theme-icon-filter-tabs-icon: var(--theme-icon-filter-tabs-icon);
+$theme-icon-footer-icon: var(--theme-icon-footer-icon);
+$theme-icon-gabarit-list-icon: var(--theme-icon-gabarit-list-icon);
+$theme-icon-gabarit-list-icon-accent: var(--theme-icon-gabarit-list-icon-accent);
+$theme-icon-header-icon: var(--theme-icon-header-icon);
+$theme-icon-header-icon-disabled: var(--theme-icon-header-icon-disabled);
+$theme-icon-header-icon-active: var(--theme-icon-header-icon-active);
+$theme-icon-iban-input-field-icon: var(--theme-icon-iban-input-field-icon);
+$theme-icon-input-field-alert-icon: var(--theme-icon-input-field-alert-icon);
+$theme-icon-link-link-icon: var(--theme-icon-link-link-icon);
+$theme-icon-link-link-icon-hover: var(--theme-icon-link-link-icon-hover);
+$theme-icon-link-link-icon-pressed: var(--theme-icon-link-link-icon-pressed);
+$theme-icon-link-link-icon-accent: var(--theme-icon-link-link-icon-accent);
+$theme-icon-link-link-icon-accent-hover: var(--theme-icon-link-link-icon-accent-hover);
+$theme-icon-link-link-icon-accent-pressed: var(--theme-icon-link-link-icon-accent-pressed);
+$theme-icon-list-row-check-icon: var(--theme-icon-list-row-check-icon);
+$theme-icon-list-row-check-icon-accent: var(--theme-icon-list-row-check-icon-accent);
+$theme-icon-list-row-link-icon: var(--theme-icon-list-row-link-icon);
+$theme-icon-list-row-chevron: var(--theme-icon-list-row-chevron);
+$theme-icon-list-row-chevron-price: var(--theme-icon-list-row-chevron-price);
+$theme-icon-list-row-chevron-price-disabled: var(--theme-icon-list-row-chevron-price-disabled);
+$theme-icon-list-row-chevron-disabled: var(--theme-icon-list-row-chevron-disabled);
+$theme-icon-list-row-check-icon-accent-disabled: var(
+    --theme-icon-list-row-check-icon-accent-disabled
+);
+$theme-icon-list-timeline-vote-icon: var(--theme-icon-list-timeline-vote-icon);
+$theme-icon-live-grid-icon: var(--theme-icon-live-grid-icon);
+$theme-icon-media-block-button-icon-icon: var(--theme-icon-media-block-button-icon-icon);
+$theme-icon-mm-yy-ccv-input-field-icon: var(--theme-icon-mm-yy-ccv-input-field-icon);
+$theme-icon-modal-icon: var(--theme-icon-modal-icon);
+$theme-icon-modal-icon-accent: var(--theme-icon-modal-icon-accent);
+$theme-icon-nav-button-icon: var(--theme-icon-nav-button-icon);
+$theme-icon-number-access-input-field-icon-error: var(
+    --theme-icon-number-access-input-field-icon-error
+);
+$theme-icon-number-access-input-field-icon-success: var(
+    --theme-icon-number-access-input-field-icon-success
+);
+$theme-icon-offer-card-icon: var(--theme-icon-offer-card-icon);
+$theme-icon-password-input-field-icon: var(--theme-icon-password-input-field-icon);
+$theme-icon-password-input-field-icon-active: var(--theme-icon-password-input-field-icon-active);
+$theme-icon-password-input-field-icon-disabled: var(
+    --theme-icon-password-input-field-icon-disabled
+);
+$theme-icon-password-input-field-icon-error: var(--theme-icon-password-input-field-icon-error);
+$theme-icon-password-input-field-icon-success: var(--theme-icon-password-input-field-icon-success);
+$theme-icon-profile-card-icon: var(--theme-icon-profile-card-icon);
+$theme-icon-radio-button-radio-button: var(--theme-icon-radio-button-radio-button);
+$theme-icon-radio-button-radio-button-error: var(--theme-icon-radio-button-radio-button-error);
+$theme-icon-rating-icon-primary-unselected: var(--theme-icon-rating-icon-primary-unselected);
+$theme-icon-rating-icon-primary-selected: var(--theme-icon-rating-icon-primary-selected);
+$theme-icon-rating-icon-secondary-unselected: var(--theme-icon-rating-icon-secondary-unselected);
+$theme-icon-rating-icon-secondary-selected: var(--theme-icon-rating-icon-secondary-selected);
+$theme-icon-search-field-android-icon: var(--theme-icon-search-field-android-icon);
+$theme-icon-search-field-ios-icon: var(--theme-icon-search-field-ios-icon);
+$theme-icon-select-input-field-icon: var(--theme-icon-select-input-field-icon);
+$theme-icon-status-bar-android-icon: var(--theme-icon-status-bar-android-icon);
+$theme-icon-status-bar-ios-icon: var(--theme-icon-status-bar-ios-icon);
+$theme-icon-sticker-icon: var(--theme-icon-sticker-icon);
+$theme-icon-tabs-icon: var(--theme-icon-tabs-icon);
+$theme-icon-tabs-icon-active: var(--theme-icon-tabs-icon-active);
+$theme-icon-tabs-icon-accent: var(--theme-icon-tabs-icon-accent);
+$theme-icon-text-input-field-icon: var(--theme-icon-text-input-field-icon);
+$theme-icon-top-app-bar-icon: var(--theme-icon-top-app-bar-icon);

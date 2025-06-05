@@ -1,0 +1,204 @@
+{
+  "font": {
+    "family": {
+      "brand": {
+        "$type": "string",
+        "$value": "Myui"
+      },
+      "system": {
+        "$type": "string",
+        "$value": "Hind"
+      }
+    },
+    "weight": {
+      "Regular": {
+        "$type": "string",
+        "$value": "Regular"
+      },
+      "Semibold": {
+        "$type": "string",
+        "$value": "Semibold"
+      },
+      "Bold_italic": {
+        "$type": "string",
+        "$value": "Bold italic"
+      }
+    },
+    "size": {
+      "10": {
+        "$type": "dimension",
+        "$value": "10px"
+      },
+      "12": {
+        "$type": "dimension",
+        "$value": "12px"
+      },
+      "14": {
+        "$type": "dimension",
+        "$value": "14px"
+      },
+      "16": {
+        "$type": "dimension",
+        "$value": "16px"
+      },
+      "18": {
+        "$type": "dimension",
+        "$value": "18px"
+      },
+      "20": {
+        "$type": "dimension",
+        "$value": "20px"
+      },
+      "22": {
+        "$type": "dimension",
+        "$value": "22px"
+      },
+      "24": {
+        "$type": "dimension",
+        "$value": "24px"
+      },
+      "26": {
+        "$type": "dimension",
+        "$value": "26px"
+      },
+      "28": {
+        "$type": "dimension",
+        "$value": "28px"
+      },
+      "30": {
+        "$type": "dimension",
+        "$value": "30px"
+      },
+      "32": {
+        "$type": "dimension",
+        "$value": "32px"
+      },
+      "36": {
+        "$type": "dimension",
+        "$value": "36px"
+      },
+      "42": {
+        "$type": "dimension",
+        "$value": "42px"
+      },
+      "48": {
+        "$type": "dimension",
+        "$value": "48px"
+      },
+      "56": {
+        "$type": "dimension",
+        "$value": "56px"
+      },
+      "64": {
+        "$type": "dimension",
+        "$value": "64px"
+      },
+      "72": {
+        "$type": "dimension",
+        "$value": "72px"
+      },
+      "80": {
+        "$type": "dimension",
+        "$value": "80px"
+      }
+    },
+    "line-height": {
+      "12": {
+        "$type": "dimension",
+        "$value": "12px"
+      },
+      "14": {
+        "$type": "dimension",
+        "$value": "14px"
+      },
+      "16": {
+        "$type": "dimension",
+        "$value": "16px"
+      },
+      "18": {
+        "$type": "dimension",
+        "$value": "18px"
+      },
+      "20": {
+        "$type": "dimension",
+        "$value": "20px"
+      },
+      "22": {
+        "$type": "dimension",
+        "$value": "22px"
+      },
+      "24": {
+        "$type": "dimension",
+        "$value": "24px"
+      },
+      "26": {
+        "$type": "dimension",
+        "$value": "26px"
+      },
+      "28": {
+        "$type": "dimension",
+        "$value": "28px"
+      },
+      "30": {
+        "$type": "dimension",
+        "$value": "30px"
+      },
+      "32": {
+        "$type": "dimension",
+        "$value": "32px"
+      },
+      "34": {
+        "$type": "dimension",
+        "$value": "34px"
+      },
+      "36": {
+        "$type": "dimension",
+        "$value": "36px"
+      },
+      "38": {
+        "$type": "dimension",
+        "$value": "38px"
+      },
+      "40": {
+        "$type": "dimension",
+        "$value": "40px"
+      },
+      "42": {
+        "$type": "dimension",
+        "$value": "42px"
+      },
+      "44": {
+        "$type": "dimension",
+        "$value": "44px"
+      },
+      "48": {
+        "$type": "dimension",
+        "$value": "48px"
+      },
+      "52": {
+        "$type": "dimension",
+        "$value": "52px"
+      },
+      "56": {
+        "$type": "dimension",
+        "$value": "56px"
+      },
+      "64": {
+        "$type": "dimension",
+        "$value": "64px"
+      },
+      "72": {
+        "$type": "dimension",
+        "$value": "72px"
+      },
+      "80": {
+        "$type": "dimension",
+        "$value": "80px"
+      },
+      "88": {
+        "$type": "dimension",
+        "$value": "88px"
+      }
+    }
+  }
+}

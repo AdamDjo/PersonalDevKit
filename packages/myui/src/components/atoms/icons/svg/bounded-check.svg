@@ -1,0 +1,13 @@
+<svg role="img" id="bounded-check" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g clip-path="url(#clip0_25_5446)">
+    <path d="M24 0H0V24H24V0Z" fill="#7B9AF6" />
+    <path fill-rule="evenodd" clip-rule="evenodd"
+      d="M12 5.25C15.728 5.25 18.75 8.27201 18.75 12C18.75 15.728 15.728 18.75 12 18.75C8.27201 18.75 5.25 15.728 5.25 12C5.25 8.27201 8.27201 5.25 12 5.25ZM14.6128 9L11.1099 12.8096L9.31026 11.1356L8.25 12.2704L11.188 15L15.75 10.0576L14.6128 9Z"
+      fill="white" />
+  </g>
+  <defs>
+    <clipPath id="clip0_25_5446">
+      <rect width="24" height="24" rx="2" fill="white" />
+    </clipPath>
+  </defs>
+</svg>

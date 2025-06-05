@@ -1,0 +1,5 @@
+<svg role="img" id="add-filled" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="12" cy="12" r="12" style="fill: var(--theme-background-icon-add-filled)"/>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M11.2932 7.42627L11.2932 16.4771L12.7074 16.4771L12.7074 7.42627L11.2932 7.42627Z"/>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M7.47454 11.2445L7.47454 12.6587L16.5254 12.6587L16.5254 11.2445L7.47454 11.2445Z"/>
+</svg>

@@ -1,0 +1,124 @@
+{
+  "Icon": {
+    "icon-size-8": {
+      "$type": "dimension",
+      "$value": "8px"
+    },
+    "icon-size-10": {
+      "$type": "dimension",
+      "$value": "10px"
+    },
+    "icon-size-12": {
+      "$type": "dimension",
+      "$value": "12px"
+    },
+    "icon-size-14": {
+      "$type": "dimension",
+      "$value": "14px"
+    },
+    "icon-size-16": {
+      "$type": "dimension",
+      "$value": "16px"
+    },
+    "icon-size-24": {
+      "$type": "dimension",
+      "$value": "24px"
+    },
+    "icon-size-26": {
+      "$type": "dimension",
+      "$value": "26px"
+    },
+    "icon-size-32": {
+      "$type": "dimension",
+      "$value": "32px"
+    },
+    "icon-size-40": {
+      "$type": "dimension",
+      "$value": "40px"
+    },
+    "icon-size-44": {
+      "$type": "dimension",
+      "$value": "44px"
+    },
+    "icon-size-48": {
+      "$type": "dimension",
+      "$value": "48px"
+    },
+    "icon-size-50": {
+      "$type": "dimension",
+      "$value": "50px"
+    },
+    "icon-size-54": {
+      "$type": "dimension",
+      "$value": "54px"
+    },
+    "icon-size-56": {
+      "$type": "dimension",
+      "$value": "56px"
+    },
+    "icon-size-64": {
+      "$type": "dimension",
+      "$value": "64px"
+    },
+    "icon-size-80": {
+      "$type": "dimension",
+      "$value": "80px"
+    },
+    "icon-size-100": {
+      "$type": "dimension",
+      "$value": "100px"
+    }
+  },
+  "size-24": {
+    "$type": "dimension",
+    "$value": "24px"
+  },
+  "size-28": {
+    "$type": "dimension",
+    "$value": "28px"
+  },
+  "size-32": {
+    "$type": "dimension",
+    "$value": "32px"
+  },
+  "size-36": {
+    "$type": "dimension",
+    "$value": "36px"
+  },
+  "size-40": {
+    "$type": "dimension",
+    "$value": "40px"
+  },
+  "size-44": {
+    "$type": "dimension",
+    "$value": "44px"
+  },
+  "size-48": {
+    "$type": "dimension",
+    "$value": "48px"
+  },
+  "size-52": {
+    "$type": "dimension",
+    "$value": "52px"
+  },
+  "size-56": {
+    "$type": "dimension",
+    "$value": "56px"
+  },
+  "size-64": {
+    "$type": "dimension",
+    "$value": "64px"
+  },
+  "size-80": {
+    "$type": "dimension",
+    "$value": "80px"
+  },
+  "size-160": {
+    "$type": "dimension",
+    "$value": "160px"
+  },
+  "size-240": {
+    "$type": "dimension",
+    "$value": "240px"
+  }
+}

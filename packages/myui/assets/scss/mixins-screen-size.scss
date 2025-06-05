@@ -1,0 +1,43 @@
+@import './variables.scss';
+
+// Extrasmall devices
+@mixin xs {
+  @media (min-width: #{$xs}) {
+    @content;
+  }
+}
+
+// Small devices
+@mixin sm {
+  @media (min-width: #{$sm}) {
+    @content;
+  }
+}
+
+// Medium devices
+@mixin md {
+  @media (min-width: #{$md}) {
+    @content;
+  }
+}
+
+// Large devices
+@mixin lg {
+  @media (min-width: #{$lg}) {
+    @content;
+  }
+}
+
+// Extra large devices
+@mixin xlg {
+  @media (min-width: #{$xlg}) {
+    @content;
+  }
+}
+
+// Extra extra large devices
+@mixin xxlg {
+  @media (min-width: #{$xxlg}) {
+    @content;
+  }
+}

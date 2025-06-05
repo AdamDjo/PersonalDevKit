@@ -1,0 +1,30 @@
+{
+  "border-none": {
+    "$type": "dimension",
+    "$value": "0px"
+  },
+  "border-ultra-thin": {
+    "$type": "dimension",
+    "$value": "0.5px"
+  },
+  "border-thin": {
+    "$type": "dimension",
+    "$value": "1px"
+  },
+  "border-regular": {
+    "$type": "dimension",
+    "$value": "2px"
+  },
+  "border-medium": {
+    "$type": "dimension",
+    "$value": "4px"
+  },
+  "border-strong": {
+    "$type": "dimension",
+    "$value": "6px"
+  },
+  "border-ultra-strong": {
+    "$type": "dimension",
+    "$value": "8px"
+  }
+}

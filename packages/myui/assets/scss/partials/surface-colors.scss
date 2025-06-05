@@ -1,0 +1,241 @@
+$theme-surface-surface: var(--theme-surface-surface);
+$theme-surface-accordion-accordion: var(--theme-surface-accordion-accordion);
+$theme-surface-alert-box-alert-box: var(--theme-surface-alert-box-alert-box);
+$theme-surface-alert-box-alert-box-error: var(--theme-surface-alert-box-alert-box-error);
+$theme-surface-alert-box-alert-box-warning: var(--theme-surface-alert-box-alert-box-warning);
+$theme-surface-alert-box-alert-box-success: var(--theme-surface-alert-box-alert-box-success);
+$theme-surface-alert-box-alert-box-info: var(--theme-surface-alert-box-alert-box-info);
+$theme-surface-bottom-app-bar-bottom-app-bar: var(--theme-surface-bottom-app-bar-bottom-app-bar);
+$theme-surface-bullet-carousel-indicator-bullet-carousel-indicator-active: var(
+    --theme-surface-bullet-carousel-indicator-bullet-carousel-indicator-active
+);
+$theme-surface-bullet-carousel-indicator-bullet-carousel-indicator-inactive: var(
+    --theme-surface-bullet-carousel-indicator-bullet-carousel-indicator-inactive
+);
+$theme-surface-button-tabs-button-tabs-default: var(
+    --theme-surface-button-tabs-button-tabs-default
+);
+$theme-surface-button-tabs-button-tabs-selected: var(
+    --theme-surface-button-tabs-button-tabs-selected
+);
+$theme-surface-button-logo-surface-button-logo-bullets: var(
+    --theme-surface-button-logo-surface-button-logo-bullets
+);
+$theme-surface-card-detailed-tile-card-detailed-tile: var(
+    --theme-surface-card-detailed-tile-card-detailed-tile
+);
+$theme-surface-card-infobanner-card-infobanner: var(
+    --theme-surface-card-infobanner-card-infobanner
+);
+$theme-surface-card-item-advantages-card-item-advantages-promotion: var(
+    --theme-surface-card-item-advantages-card-item-advantages-promotion
+);
+$theme-surface-card-item-advantages-card-item-advantages-price-tag: var(
+    --theme-surface-card-item-advantages-card-item-advantages-price-tag
+);
+$theme-surface-card-upcoming-surface: var(--theme-surface-card-upcoming-surface);
+$theme-surface-card-ongoing-surface: var(--theme-surface-card-ongoing-surface);
+$theme-surface-card-tab-card-tab: var(--theme-surface-card-tab-card-tab);
+$theme-surface-card-tab-card-tab-hover: var(--theme-surface-card-tab-card-tab-hover);
+$theme-surface-card-timeline-facts-card-timeline-facts: var(
+    --theme-surface-card-timeline-facts-card-timeline-facts
+);
+$theme-surface-card-timeline-vote-versus-card-timeline-vote-versus-select: var(
+    --theme-surface-card-timeline-vote-versus-card-timeline-vote-versus-select
+);
+$theme-surface-card-timeline-vote-versus-card-timeline-vote-versus-result: var(
+    --theme-surface-card-timeline-vote-versus-card-timeline-vote-versus-result
+);
+$theme-surface-checkbox-checkbox: var(--theme-surface-checkbox-checkbox);
+$theme-surface-checkbox-field-checkbox-field: var(--theme-surface-checkbox-field-checkbox-field);
+$theme-surface-civility-input-field-civility-input-field: var(
+    --theme-surface-civility-input-field-civility-input-field
+);
+$theme-surface-civility-input-field-civility-input-field-active: var(
+    --theme-surface-civility-input-field-civility-input-field-active
+);
+$theme-surface-civility-input-field-civility-input-field-disabled: var(
+    --theme-surface-civility-input-field-civility-input-field-disabled
+);
+$theme-surface-credit-card-input-field-credit-card-input-field: var(
+    --theme-surface-credit-card-input-field-credit-card-input-field
+);
+$theme-surface-credit-card-input-field-credit-card-input-field-active: var(
+    --theme-surface-credit-card-input-field-credit-card-input-field-active
+);
+$theme-surface-credit-card-input-field-credit-card-input-field-disabled: var(
+    --theme-surface-credit-card-input-field-credit-card-input-field-disabled
+);
+$theme-surface-dropdown-list-menu-dropdown-list-menu: var(
+    --theme-surface-dropdown-list-menu-dropdown-list-menu
+);
+$theme-surface-filter-tabs-filter-tabs-default: var(
+    --theme-surface-filter-tabs-filter-tabs-default
+);
+$theme-surface-filter-tabs-filter-tabs-hover: var(--theme-surface-filter-tabs-filter-tabs-hover);
+$theme-surface-filter-tabs-filter-tabs-selected: var(
+    --theme-surface-filter-tabs-filter-tabs-selected
+);
+$theme-surface-home-indicator-ios-home-indicator: var(
+    --theme-surface-home-indicator-ios-home-indicator
+);
+$theme-surface-iban-input-field-iban-input-field: var(
+    --theme-surface-iban-input-field-iban-input-field
+);
+$theme-surface-iban-input-field-iban-input-field-active: var(
+    --theme-surface-iban-input-field-iban-input-field-active
+);
+$theme-surface-iban-input-field-iban-input-field-disabled: var(
+    --theme-surface-iban-input-field-iban-input-field-disabled
+);
+$theme-surface-icon-footer-footer: var(--theme-surface-icon-footer-footer);
+$theme-surface-icon-footer-footer-hover: var(--theme-surface-icon-footer-footer-hover);
+$theme-surface-input-field-alert-input-field-alert: var(
+    --theme-surface-input-field-alert-input-field-alert
+);
+$theme-surface-input-field-alert-input-field-alert-error: var(
+    --theme-surface-input-field-alert-input-field-alert-error
+);
+$theme-surface-input-field-alert-input-field-alert-warning: var(
+    --theme-surface-input-field-alert-input-field-alert-warning
+);
+$theme-surface-input-field-alert-input-field-alert-success: var(
+    --theme-surface-input-field-alert-input-field-alert-success
+);
+$theme-surface-input-field-alert-input-field-alert-info: var(
+    --theme-surface-input-field-alert-input-field-alert-info
+);
+$theme-surface-list-row-list-row: var(--theme-surface-list-row-list-row);
+$theme-surface-list-row-list-row-disabled: var(--theme-surface-list-row-list-row-disabled);
+$theme-surface-list-timeline-vote-list-timeline-vote-select: var(
+    --theme-surface-list-timeline-vote-list-timeline-vote-select
+);
+$theme-surface-list-timeline-vote-list-timeline-vote-result: var(
+    --theme-surface-list-timeline-vote-list-timeline-vote-result
+);
+$theme-surface-login-card-login-card: var(--theme-surface-login-card-login-card);
+$theme-surface-mm-yy-ccv-input-field-mm-yy-ccv-input-field: var(
+    --theme-surface-mm-yy-ccv-input-field-mm-yy-ccv-input-field
+);
+$theme-surface-mm-yy-ccv-input-field-mm-yy-ccv-input-field-active: var(
+    --theme-surface-mm-yy-ccv-input-field-mm-yy-ccv-input-field-active
+);
+$theme-surface-mm-yy-ccv-input-field-mm-yy-ccv-input-field-disabled: var(
+    --theme-surface-mm-yy-ccv-input-field-mm-yy-ccv-input-field-disabled
+);
+$theme-surface-modal-modal: var(--theme-surface-modal-modal);
+$theme-surface-navigation-bar-android-navigation-bar: var(
+    --theme-surface-navigation-bar-android-navigation-bar
+);
+$theme-surface-navigation-bar-android-home-indicator: var(
+    --theme-surface-navigation-bar-android-home-indicator
+);
+$theme-surface-number-access-input-field-number-access-input-field: var(
+    --theme-surface-number-access-input-field-number-access-input-field
+);
+$theme-surface-number-access-input-field-number-access-input-field-active: var(
+    --theme-surface-number-access-input-field-number-access-input-field-active
+);
+$theme-surface-number-access-input-field-number-access-input-field-disabled: var(
+    --theme-surface-number-access-input-field-number-access-input-field-disabled
+);
+$theme-surface-password-input-field-password-input-field: var(
+    --theme-surface-password-input-field-password-input-field
+);
+$theme-surface-password-input-field-password-input-field-active: var(
+    --theme-surface-password-input-field-password-input-field-active
+);
+$theme-surface-password-input-field-password-input-field-disabled: var(
+    --theme-surface-password-input-field-password-input-field-disabled
+);
+$theme-surface-profile-card-profile-card: var(--theme-surface-profile-card-profile-card);
+$theme-surface-profile-card-profile-card-back: var(--theme-surface-profile-card-profile-card-back);
+$theme-surface-progressbar-progressbar-on-going: var(
+    --theme-surface-progressbar-progressbar-on-going
+);
+$theme-surface-progressbar-progressbar-live: var(--theme-surface-progressbar-progressbar-live);
+$theme-surface-progressbar-progressbar-circle: var(--theme-surface-progressbar-progressbar-circle);
+$theme-surface-radio-button-field-radio-button-field: var(
+    --theme-surface-radio-button-field-radio-button-field
+);
+$theme-surface-search-field-android-search-field: var(
+    --theme-surface-search-field-android-search-field
+);
+$theme-surface-search-field-ios-search: var(--theme-surface-search-field-ios-search);
+$theme-surface-season-selector-season-selector-selected: var(
+    --theme-surface-season-selector-season-selector-selected
+);
+$theme-surface-season-selector-season-selector-unselected: var(
+    --theme-surface-season-selector-season-selector-unselected
+);
+$theme-surface-season-selector-season-selector-description: var(
+    --theme-surface-season-selector-season-selector-description
+);
+$theme-surface-segmented-control-segmented-control: var(
+    --theme-surface-segmented-control-segmented-control
+);
+$theme-surface-segmented-control-segmented-control-active: var(
+    --theme-surface-segmented-control-segmented-control-active
+);
+$theme-surface-select-input-field-select-input-field: var(
+    --theme-surface-select-input-field-select-input-field
+);
+$theme-surface-select-input-field-select-input-field-active: var(
+    --theme-surface-select-input-field-select-input-field-active
+);
+$theme-surface-select-input-field-select-input-field-disabled: var(
+    --theme-surface-select-input-field-select-input-field-disabled
+);
+$theme-surface-select-input-option-field-select-input-option-field: var(
+    --theme-surface-select-input-option-field-select-input-option-field
+);
+$theme-surface-select-input-option-field-select-input-option-field-hover: var(
+    --theme-surface-select-input-option-field-select-input-option-field-hover
+);
+$theme-surface-status-bar-android-status-bar: var(--theme-surface-status-bar-android-status-bar);
+$theme-surface-status-bar-ios-notch: var(--theme-surface-status-bar-ios-notch);
+$theme-surface-sticker-sticker-free-to-air: var(--theme-surface-sticker-sticker-free-to-air);
+$theme-surface-sticker-sticker-date: var(--theme-surface-sticker-sticker-date);
+$theme-surface-sticker-sticker-last-days: var(--theme-surface-sticker-sticker-last-days);
+$theme-surface-sticker-sticker-live: var(--theme-surface-sticker-sticker-live);
+$theme-surface-sticker-sticker-offered-content: var(
+    --theme-surface-sticker-sticker-offered-content
+);
+$theme-surface-sticker-sticker-order: var(--theme-surface-sticker-sticker-order);
+$theme-surface-sticker-sticker-get: var(--theme-surface-sticker-sticker-get);
+$theme-surface-sticker-sticker-subscribe: var(--theme-surface-sticker-sticker-subscribe);
+$theme-surface-tabs-tabs: var(--theme-surface-tabs-tabs);
+$theme-surface-tabs-tabs-indicator: var(--theme-surface-tabs-tabs-indicator);
+$theme-surface-text-input-field-text-input-field: var(
+    --theme-surface-text-input-field-text-input-field
+);
+$theme-surface-text-input-field-text-input-field-active: var(
+    --theme-surface-text-input-field-text-input-field-active
+);
+$theme-surface-text-input-field-text-input-field-disabled: var(
+    --theme-surface-text-input-field-text-input-field-disabled
+);
+$theme-surface-textarea-input-field-textarea-input-field: var(
+    --theme-surface-textarea-input-field-textarea-input-field
+);
+$theme-surface-textarea-input-field-textarea-input-field-active: var(
+    --theme-surface-textarea-input-field-textarea-input-field-active
+);
+$theme-surface-textarea-input-field-textarea-input-field-disabled: var(
+    --theme-surface-textarea-input-field-textarea-input-field-disabled
+);
+$theme-surface-toggle-switch-toggle: var(--theme-surface-toggle-switch-toggle);
+$theme-surface-toggle-switch-android-toggle-switch-on: var(
+    --theme-surface-toggle-switch-android-toggle-switch-on
+);
+$theme-surface-toggle-switch-android-toggle-switch-off: var(
+    --theme-surface-toggle-switch-android-toggle-switch-off
+);
+$theme-surface-toggle-switch-ios-toggle-switch-on: var(
+    --theme-surface-toggle-switch-ios-toggle-switch-on
+);
+$theme-surface-toggle-switch-field-toggle-switch-field: var(
+    --theme-surface-toggle-switch-field-toggle-switch-field
+);
+$theme-surface-tooltip-tooltip: var(--theme-surface-tooltip-tooltip);
+$theme-surface-top-app-bar-top-app-bar: var(--theme-surface-top-app-bar-top-app-bar);

@@ -1,0 +1,15 @@
+/**
+ * Do not edit directly
+ * Generated on Mon, 05 Aug 2024 10:09:45 GMT
+ */
+
+:root,
+:root[data-theme="dark-theme"],
+*[data-theme="dark-theme"] {
+  --theme-link-link-default: #ebebeb;
+  --theme-link-link-hover: #f5f5f5;
+  --theme-link-link-pressed: #d6d6d6;
+  --theme-link-link-accent: #dc314e;
+  --theme-link-link-accent-hover: #ee4a65;
+  --theme-link-link-accent-pressed: #c2203b;
+}

@@ -1,0 +1,45 @@
+/**
+ * Do not edit directly
+ * Generated on Mon, 05 Aug 2024 10:09:45 GMT
+ */
+
+:root[data-theme='light-theme'],
+*[data-theme='light-theme'] {
+    --theme-background-background: #ffffff;
+    --theme-background-avatar-avatar: #181818;
+    --theme-background-avatar-avatar-profile: #181818;
+    --theme-background-button-secondary-secondary: #ebebeb;
+    --theme-background-button-secondary-secondary-hover: #f5f5f5;
+    --theme-background-button-secondary-secondary-pressed: #d6d6d6;
+    --theme-background-button-tertiary-tertiary: #ebebeb;
+    --theme-background-button-tertiary-tertiary-hover: #f5f5f5;
+    --theme-background-button-tertiary-tertiary-pressed: #d6d6d6;
+    --theme-background-button-icon-button-icon-primary: #d6d6d6;
+    --theme-background-button-icon-button-icon-primary-hover: #f5f5f5;
+    --theme-background-button-icon-button-icon-secondary: #ebebeb;
+    --theme-background-button-icon-button-icon-tertiary: #ebebeb;
+    --theme-background-button-icon-back-button-icon-back: #ebebeb;
+    --theme-background-button-icon-close-button-icon-close: #ebebeb;
+    --theme-background-button-icon-mood-button-icon-mood: #d6d6d6;
+    --theme-background-button-icon-mood-button-icon-mood-hover: #f5f5f5;
+    --theme-background-button-icon-video-button-icon-video: #ebebeb;
+    --theme-background-button-logo-button-logo: #f5f5f5;
+    --theme-background-checkbox-checkbox: #f5f5f5;
+    --theme-background-civility-input-field-hint-error: #eb3f451a;
+    --theme-background-footer-footer: #ffffff;
+    --theme-background-gabarit-list-gabarit-list: #ffffff;
+    --theme-background-header-header: #ffffff;
+    --theme-background-icon-start-over: #00000080;
+    --theme-background-icon-add-filled: #ebebeb;
+    --theme-background-icon-alert-box-alert-box: #878787;
+    --theme-background-icon-input-field-alert-icon-input-field-alert: #878787;
+    --theme-background-icon-live-grid-icon-live-grid: #00000080;
+    --theme-background-icon-nav-button-icon-nav-button: #ffffff99;
+    --theme-background-number-access-input-field-bullet: #0e0e0e;
+    --theme-background-password-input-field-bullet: #0e0e0e;
+    --theme-background-progressbar-progressbar: #0000001a;
+    --theme-background-radio-button-radio-button: #181818;
+    --theme-background-toggle-switch-toggle-switch-off: #363636;
+    --theme-background-toggle-switch-android-toggle-off-android: #3c3c43;
+    --theme-background-toggle-switch-ios-toggle-off-ios: #787880;
+}

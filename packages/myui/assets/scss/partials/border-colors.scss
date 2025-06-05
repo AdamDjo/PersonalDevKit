@@ -1,0 +1,233 @@
+$theme-border-border: var(--theme-border-border);
+$theme-border-border-opaque: var(--theme-border-border-opaque);
+$theme-border-border-active: var(--theme-border-border-active);
+$theme-border-border-accent: var(--theme-border-border-accent);
+$theme-border-border-live: var(--theme-border-border-live);
+$theme-border-border-error: var(--theme-border-border-error);
+$theme-border-border-warning: var(--theme-border-border-warning);
+$theme-border-border-success: var(--theme-border-border-success);
+$theme-border-border-info: var(--theme-border-border-info);
+$theme-border-accordion-accordion: var(--theme-border-accordion-accordion);
+$theme-border-accordion-accordion-divider: var(--theme-border-accordion-accordion-divider);
+$theme-border-activation-card-activation-card: var(--theme-border-activation-card-activation-card);
+$theme-border-button-icon-secondary-button-icon-secondary: var(
+    --theme-border-button-icon-secondary-button-icon-secondary
+);
+$theme-border-button-tabs-button-tabs-default: var(--theme-border-button-tabs-button-tabs-default);
+$theme-border-button-tabs-button-tabs-selected: var(
+    --theme-border-button-tabs-button-tabs-selected
+);
+$theme-border-card-infobanner-card-infobanner: var(--theme-border-card-infobanner-card-infobanner);
+$theme-border-checkbox-checkbox: var(--theme-border-checkbox-checkbox);
+$theme-border-checkbox-checkbox-error: var(--theme-border-checkbox-checkbox-error);
+$theme-border-checkbox-field-checkbox-field: var(--theme-border-checkbox-field-checkbox-field);
+$theme-border-checkbox-field-checkbox-field-active: var(
+    --theme-border-checkbox-field-checkbox-field-active
+);
+$theme-border-civility-input-field-civility-input-field-default: var(
+    --theme-border-civility-input-field-civility-input-field-default
+);
+$theme-border-civility-input-field-civility-input-field-active: var(
+    --theme-border-civility-input-field-civility-input-field-active
+);
+$theme-border-civility-input-field-civility-input-field-disabled: var(
+    --theme-border-civility-input-field-civility-input-field-disabled
+);
+$theme-border-civility-input-field-civility-input-field-divider: var(
+    --theme-border-civility-input-field-civility-input-field-divider
+);
+$theme-border-civility-input-field-civility-input-field-error-default: var(
+    --theme-border-civility-input-field-civility-input-field-error-default
+);
+$theme-border-civility-input-field-civility-input-field-error-divider: var(
+    --theme-border-civility-input-field-civility-input-field-error-divider
+);
+$theme-border-credit-card-input-field-credit-card-input-field-default: var(
+    --theme-border-credit-card-input-field-credit-card-input-field-default
+);
+$theme-border-credit-card-input-field-credit-card-input-field-active: var(
+    --theme-border-credit-card-input-field-credit-card-input-field-active
+);
+$theme-border-credit-card-input-field-credit-card-input-field-disabled: var(
+    --theme-border-credit-card-input-field-credit-card-input-field-disabled
+);
+$theme-border-credit-card-input-field-credit-card-input-field-error-default: var(
+    --theme-border-credit-card-input-field-credit-card-input-field-error-default
+);
+$theme-border-credit-card-input-field-credit-card-input-field-error-active: var(
+    --theme-border-credit-card-input-field-credit-card-input-field-error-active
+);
+$theme-border-credit-card-input-field-credit-card-input-field-cursor: var(
+    --theme-border-credit-card-input-field-credit-card-input-field-cursor
+);
+$theme-border-footer-footer: var(--theme-border-footer-footer);
+$theme-border-footer-footer-divider: var(--theme-border-footer-footer-divider);
+$theme-border-gabarit-list-underline: var(--theme-border-gabarit-list-underline);
+$theme-border-header-header: var(--theme-border-header-header);
+$theme-border-iban-input-field-iban-input-field-default: var(
+    --theme-border-iban-input-field-iban-input-field-default
+);
+$theme-border-iban-input-field-iban-input-field-active: var(
+    --theme-border-iban-input-field-iban-input-field-active
+);
+$theme-border-iban-input-field-iban-input-field-disabled: var(
+    --theme-border-iban-input-field-iban-input-field-disabled
+);
+$theme-border-iban-input-field-iban-input-field-error-default: var(
+    --theme-border-iban-input-field-iban-input-field-error-default
+);
+$theme-border-iban-input-field-iban-input-field-error-active: var(
+    --theme-border-iban-input-field-iban-input-field-error-active
+);
+$theme-border-iban-input-field-iban-input-field-cursor: var(
+    --theme-border-iban-input-field-iban-input-field-cursor
+);
+$theme-border-list-row-list-row: var(--theme-border-list-row-list-row);
+$theme-border-list-row-divider: var(--theme-border-list-row-divider);
+$theme-border-list-timeline-vote-list-timeline-vote: var(
+    --theme-border-list-timeline-vote-list-timeline-vote
+);
+$theme-border-login-card-divider: var(--theme-border-login-card-divider);
+$theme-border-mm-yy-ccv-input-field-mm-yy-ccv-input-field-default: var(
+    --theme-border-mm-yy-ccv-input-field-mm-yy-ccv-input-field-default
+);
+$theme-border-mm-yy-ccv-input-field-mm-yy-ccv-input-field-active: var(
+    --theme-border-mm-yy-ccv-input-field-mm-yy-ccv-input-field-active
+);
+$theme-border-mm-yy-ccv-input-field-mm-yy-ccv-input-field-disabled: var(
+    --theme-border-mm-yy-ccv-input-field-mm-yy-ccv-input-field-disabled
+);
+$theme-border-mm-yy-ccv-input-field-mm-yy-ccv-input-field-error-default: var(
+    --theme-border-mm-yy-ccv-input-field-mm-yy-ccv-input-field-error-default
+);
+$theme-border-mm-yy-ccv-input-field-mm-yy-ccv-input-field-error-active: var(
+    --theme-border-mm-yy-ccv-input-field-mm-yy-ccv-input-field-error-active
+);
+$theme-border-mm-yy-ccv-input-field-mm-yy-ccv-input-field-cursor: var(
+    --theme-border-mm-yy-ccv-input-field-mm-yy-ccv-input-field-cursor
+);
+$theme-border-number-access-input-field-number-access-input-field-default: var(
+    --theme-border-number-access-input-field-number-access-input-field-default
+);
+$theme-border-number-access-input-field-number-access-input-field-active: var(
+    --theme-border-number-access-input-field-number-access-input-field-active
+);
+$theme-border-number-access-input-field-number-access-input-field-disabled: var(
+    --theme-border-number-access-input-field-number-access-input-field-disabled
+);
+$theme-border-number-access-input-field-number-access-input-field-error-default: var(
+    --theme-border-number-access-input-field-number-access-input-field-error-default
+);
+$theme-border-offer-tag-offer-tag: var(--theme-border-offer-tag-offer-tag);
+$theme-border-offer-card-offer-card: var(--theme-border-offer-card-offer-card);
+$theme-border-password-input-field-password-input-field-default: var(
+    --theme-border-password-input-field-password-input-field-default
+);
+$theme-border-password-input-field-password-input-field-active: var(
+    --theme-border-password-input-field-password-input-field-active
+);
+$theme-border-password-input-field-password-input-field-disabled: var(
+    --theme-border-password-input-field-password-input-field-disabled
+);
+$theme-border-password-input-field-password-input-field-error-default: var(
+    --theme-border-password-input-field-password-input-field-error-default
+);
+$theme-border-password-input-field-password-input-field-error-active: var(
+    --theme-border-password-input-field-password-input-field-error-active
+);
+$theme-border-password-input-field-password-input-field-cursor: var(
+    --theme-border-password-input-field-password-input-field-cursor
+);
+$theme-border-profile-card-divider: var(--theme-border-profile-card-divider);
+$theme-border-radio-button-radio-button: var(--theme-border-radio-button-radio-button);
+$theme-border-radio-button-radio-button-error: var(--theme-border-radio-button-radio-button-error);
+$theme-border-radio-button-field-radio-button-field: var(
+    --theme-border-radio-button-field-radio-button-field
+);
+$theme-border-radio-button-field-radio-button-field-active: var(
+    --theme-border-radio-button-field-radio-button-field-active
+);
+$theme-border-segmented-control-segmented-control: var(
+    --theme-border-segmented-control-segmented-control
+);
+$theme-border-select-input-field-select-input-field-default: var(
+    --theme-border-select-input-field-select-input-field-default
+);
+$theme-border-select-input-field-select-input-field-active: var(
+    --theme-border-select-input-field-select-input-field-active
+);
+$theme-border-select-input-field-select-input-field-disabled: var(
+    --theme-border-select-input-field-select-input-field-disabled
+);
+$theme-border-select-input-field-select-input-field-error-default: var(
+    --theme-border-select-input-field-select-input-field-error-default
+);
+$theme-border-select-input-field-select-input-field-error-active: var(
+    --theme-border-select-input-field-select-input-field-error-active
+);
+$theme-border-select-input-field-select-input-field-cursor: var(
+    --theme-border-select-input-field-select-input-field-cursor
+);
+$theme-border-select-input-option-field-select-input-option-field-default: var(
+    --theme-border-select-input-option-field-select-input-option-field-default
+);
+$theme-border-select-input-option-field-select-input-option-field-hover: var(
+    --theme-border-select-input-option-field-select-input-option-field-hover
+);
+$theme-border-text-input-field-text-input-field-default: var(
+    --theme-border-text-input-field-text-input-field-default
+);
+$theme-border-text-input-field-text-input-field-active: var(
+    --theme-border-text-input-field-text-input-field-active
+);
+$theme-border-text-input-field-text-input-field-disabled: var(
+    --theme-border-text-input-field-text-input-field-disabled
+);
+$theme-border-text-input-field-text-input-field-error-default: var(
+    --theme-border-text-input-field-text-input-field-error-default
+);
+$theme-border-text-input-field-text-input-field-error-active: var(
+    --theme-border-text-input-field-text-input-field-error-active
+);
+$theme-border-text-input-field-text-input-field-error-disabled: var(
+    --theme-border-text-input-field-text-input-field-error-disabled
+);
+$theme-border-text-input-field-text-input-field-warning-default: var(
+    --theme-border-text-input-field-text-input-field-warning-default
+);
+$theme-border-text-input-field-text-input-field-warning-active: var(
+    --theme-border-text-input-field-text-input-field-warning-active
+);
+$theme-border-text-input-field-text-input-field-warning-disabled: var(
+    --theme-border-text-input-field-text-input-field-warning-disabled
+);
+$theme-border-text-input-field-text-input-field-success-default: var(
+    --theme-border-text-input-field-text-input-field-success-default
+);
+$theme-border-text-input-field-text-input-field-success-active: var(
+    --theme-border-text-input-field-text-input-field-success-active
+);
+$theme-border-text-input-field-text-input-field-success-disabled: var(
+    --theme-border-text-input-field-text-input-field-success-disabled
+);
+$theme-border-text-input-field-text-input-field-cursor: var(
+    --theme-border-text-input-field-text-input-field-cursor
+);
+$theme-border-textarea-input-field-textarea-input-field-default: var(
+    --theme-border-textarea-input-field-textarea-input-field-default
+);
+$theme-border-textarea-input-field-textarea-input-field-active: var(
+    --theme-border-textarea-input-field-textarea-input-field-active
+);
+$theme-border-textarea-input-field-textarea-input-field-disabled: var(
+    --theme-border-textarea-input-field-textarea-input-field-disabled
+);
+$theme-border-textarea-input-field-textarea-input-field-cursor: var(
+    --theme-border-textarea-input-field-textarea-input-field-cursor
+);
+$theme-border-toggle-switch-field-toggle-switch-field: var(
+    --theme-border-toggle-switch-field-toggle-switch-field
+);
+$theme-border-toggle-switch-field-toggle-switch-field-active: var(
+    --theme-border-toggle-switch-field-toggle-switch-field-active
+);

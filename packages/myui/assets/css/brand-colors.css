@@ -1,0 +1,18 @@
+/**
+ * Do not edit directly
+ * Generated on Mon, 05 Aug 2024 10:09:45 GMT
+ */
+
+:root {
+  --theme-brand-primary-accent: #dc314e;
+  --theme-brand-secondary-cinema: #3d86f6;
+  --theme-brand-secondary-kids: #ffdb00;
+  --theme-brand-secondary-sport: #16c900;
+  --theme-brand-secondary-series: #fd101e;
+  --theme-brand-secondary-docs: #7f2a8d;
+  --theme-brand-context-live: #d80c2e;
+  --theme-brand-semantic-error: #eb3f45;
+  --theme-brand-semantic-warning: #f75712;
+  --theme-brand-semantic-success: #0b9e65;
+  --theme-brand-semantic-info: #108cff;
+}

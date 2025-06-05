@@ -1,5 +1,5 @@
 import Image, { type ImageProps } from 'next/image';
-import { Button } from '@repo/ui/button';
+import { Button } from '@repo/myui';
 import styles from './page.module.css';
 
 type Props = Omit<ImageProps, 'src'> & {
@@ -7,7 +7,7 @@ type Props = Omit<ImageProps, 'src'> & {
   srcDark: string;
 };
 
-const ThemeImage = (props: Props) => {
+const ThemeImage = (props: Props) =>p,p {
   const { srcLight, srcDark, ...rest } = props;
 
   return (

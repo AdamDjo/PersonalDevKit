@@ -1,0 +1,10 @@
+/**
+ * Do not edit directly
+ * Generated on Mon, 05 Aug 2024 10:09:45 GMT
+ */
+
+:root[data-theme="light-theme"], *[data-theme="light-theme"] {
+  --theme-link-link-default: #242424;
+  --theme-link-link-hover: #3a3a3a;
+  --theme-link-link-pressed: #181818;
+}

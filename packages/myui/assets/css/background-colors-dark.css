@@ -1,0 +1,87 @@
+/**
+ * Do not edit directly
+ * Generated on Mon, 05 Aug 2024 10:09:45 GMT
+ */
+
+:root,
+:root[data-theme="dark-theme"],
+*[data-theme="dark-theme"] {
+  --theme-background-background: #0e0e0e;
+  --theme-background-avatar-avatar: #181818;
+  --theme-background-avatar-avatar-profile: #ffffff;
+  --theme-background-button-primary-accent: #dc314e;
+  --theme-background-button-primary-accent-hover: #ee4a65;
+  --theme-background-button-primary-accent-pressed: #c2203b;
+  --theme-background-button-secondary-secondary: #242424;
+  --theme-background-button-secondary-secondary-hover: #3a3a3a;
+  --theme-background-button-secondary-secondary-pressed: #181818;
+  --theme-background-button-tertiary-tertiary: #242424;
+  --theme-background-button-tertiary-tertiary-hover: #3a3a3a;
+  --theme-background-button-tertiary-tertiary-pressed: #181818;
+  --theme-background-button-icon-button-icon-primary: #363636;
+  --theme-background-button-icon-button-icon-primary-hover: #4a4a4a;
+  --theme-background-button-icon-button-icon-secondary: #242424;
+  --theme-background-button-icon-button-icon-tertiary: #00000080;
+  --theme-background-button-icon-back-button-icon-back: #242424cc;
+  --theme-background-button-icon-close-button-icon-close: #242424cc;
+  --theme-background-button-icon-media-block-button-icon-media-block: #00000080;
+  --theme-background-button-icon-mood-button-icon-mood-default: #363636;
+  --theme-background-button-icon-mood-button-icon-mood-hover: #4a4a4a;
+  --theme-background-button-icon-video-button-icon-video: #242424;
+  --theme-background-button-logo-button-logo: #242424;
+  --theme-background-card-timeline-vote-versus-card-timeline-vote-versus-default: #181818;
+  --theme-background-card-timeline-vote-versus-card-timeline-vote-versus-success: #0b9e65;
+  --theme-background-checkbox-checkbox: #181818;
+  --theme-background-civility-input-field-hint-error: #eb3f4533;
+  --theme-background-civility-input-field-icon-error: #eb3f45;
+  --theme-background-episode-list-episode-list-icon-check: #ffffff;
+  --theme-background-episode-list-button-icon-episode-list: #242424b2;
+  --theme-background-episode-list-episode-list-unavailable: #00000080;
+  --theme-background-footer-footer: #0e0e0e;
+  --theme-background-gabarit-list-gabarit-list: #0e0e0e;
+  --theme-background-header-header: #0e0e0e;
+  --theme-background-icon-kids: #108cff;
+  --theme-background-icon-edit: #5e646a;
+  --theme-background-icon-start-over: #363636;
+  --theme-background-icon-play-button: #242424b2;
+  --theme-background-icon-valid: #0b9e65;
+  --theme-background-icon-alert: #f75712;
+  --theme-background-icon-info: #108cff;
+  --theme-background-icon-info-default: #999999;
+  --theme-background-icon-info-message: #242424;
+  --theme-background-icon-error: #eb3f45;
+  --theme-background-icon-error-download: #dc314e;
+  --theme-background-icon-add-filled: #242424;
+  --theme-background-icon-upgrade: #0b9e65;
+  --theme-background-icon-download-on: #dc314e;
+  --theme-background-icon-rating-tertiary: #ce0f0f;
+  --theme-background-icon-alert-box-alert-box: #878787;
+  --theme-background-icon-alert-box-alert-box-error: #eb3f45;
+  --theme-background-icon-alert-box-alert-box-warning: #f75712;
+  --theme-background-icon-alert-box-alert-box-success: #0b9e65;
+  --theme-background-icon-alert-box-alert-box-info: #108cff;
+  --theme-background-icon-input-field-alert-icon-input-field-alert: #0e0e0e;
+  --theme-background-icon-input-field-alert-icon-input-field-alert-error: #eb3f45;
+  --theme-background-icon-input-field-alert-icon-input-field-alert-warning: #f75712;
+  --theme-background-icon-input-field-alert-icon-input-field-alert-success: #0b9e65;
+  --theme-background-icon-input-field-alert-icon-input-field-alert-info: #108cff;
+  --theme-background-icon-live-grid-icon-live-grid: #242424;
+  --theme-background-icon-nav-button-icon-nav-button: #00000099;
+  --theme-background-list-row-check: #181818;
+  --theme-background-list-timeline-vote-list-timeline-vote-default: #181818;
+  --theme-background-list-timeline-vote-list-timeline-vote-success: #0b9e65;
+  --theme-background-load-media-placeholder-load-media-placeholder: #242424;
+  --theme-background-number-access-input-field-bullet: #ffffffcc;
+  --theme-background-offer-card-offer-card-icon: #0b9e65;
+  --theme-background-password-input-field-bullet: #ffffffcc;
+  --theme-background-profile-card-profile-card-icon: #242424;
+  --theme-background-progressbar-progressbar: #ffffff1a;
+  --theme-background-progressbar-progressbar-forced-dark: #ffffff1a;
+  --theme-background-radio-button-radio-button: #f5f5f5;
+  --theme-background-toggle-switch-toggle-switch-on: #dc314e;
+  --theme-background-toggle-switch-toggle-switch-off: #d6d6d6;
+  --theme-background-toggle-switch-android-toggle-switch-on-android: #dc314e;
+  --theme-background-toggle-switch-android-toggle-switch-off-android: #ffffff;
+  --theme-background-toggle-switch-ios-toggle-switch-on-ios: #dc314e;
+  --theme-background-toggle-switch-ios-toggle-switch-off-ios: #787880;
+}

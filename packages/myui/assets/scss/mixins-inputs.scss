@@ -1,0 +1,12 @@
+@mixin label-with-screen-reader-support {
+  label {
+    @include system-hind-body-4-regular-desktop;
+    display: block;
+    padding: 0;
+    color: $theme-text-text-input-field-text-input-field-label;
+
+    &::selection {
+      background: transparent;
+    }
+  }
+}
