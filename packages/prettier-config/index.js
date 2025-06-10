@@ -1,3 +1,4 @@
+// .prettierrc.js
 module.exports = {
   semi: true,
   singleQuote: true,
@@ -5,5 +6,19 @@ module.exports = {
   printWidth: 80,
   tabWidth: 2,
   useTabs: false,
-  endOfLine: 'auto'
+  endOfLine: 'auto',
+  overrides: [
+    {
+      files: ['*.ts', '*.tsx'],
+      options: {
+        parser: 'typescript',
+      },
+    },
+    {
+      files: ['*.js', '*.jsx'],
+      options: {
+        parser: 'babel',
+      },
+    },
+  ],
 };

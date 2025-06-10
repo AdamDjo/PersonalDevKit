@@ -1,29 +1,32 @@
 import type { StorybookConfig } from '@storybook/react-vite';
+import { InlineConfig, mergeConfig } from 'vite';
 
-import { dirname, join } from 'path';
-
-/**
- * This function is used to resolve the absolute path of a package.
- * It is needed in projects that use Yarn PnP or are set up within a monorepo.
- */
-function getAbsolutePath(value: string): any {
-  return dirname(require.resolve(join(value, 'package.json')));
-}
 const config: StorybookConfig = {
-  stories: ['../src/**/*.mdx', '../src/**/*.stories.@(js|jsx|mjs|ts|tsx)'],
+  stories: ['../src/**/*.stories.@(js|jsx|ts|tsx)'],
+  docs: { autodocs: true },
   addons: [
-    {
-      name: getAbsolutePath('@storybook/addon-essentials'),
-      options: {
-        docs: false,
-      },
-    },
-    getAbsolutePath('@storybook/addon-onboarding'),
-    getAbsolutePath('@storybook/addon-interactions'),
+    '@storybook/addon-links',
+    '@storybook/addon-essentials',
+    '@storybook/addon-interactions',
+    '@storybook/preset-scss',
+    '@storybook/addon-actions',
   ],
-  framework: {
-    name: getAbsolutePath('@storybook/react-vite'),
-    options: {},
+  core: {
+    builder: '@storybook/builder-vite',
+  },
+  framework: '@storybook/react-vite',
+  staticDirs: [{ from: '../assets/fonts', to: '/Fonts' }],
+  async viteFinal(config: InlineConfig) {
+    return mergeConfig(config, {
+      build: {
+        chunkSizeWarningLimit: 1200,
+        rollupOptions: {
+          output: {
+            assetFileNames: 'assets/[name][extname]',
+          },
+        },
+      },
+    });
   },
 };
 export default config;
