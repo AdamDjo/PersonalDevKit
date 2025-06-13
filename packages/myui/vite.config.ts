@@ -49,18 +49,14 @@ export default defineConfig({
   build: {
     lib: {
       entry: resolve(__dirname, 'src', 'index.ts'),
-      name: 'shared-ui-components',
+      name: 'myui-components',
       fileName: 'index',
     },
     outDir: resolve('dist'),
     minify: true,
     cssMinify: true,
     rollupOptions: {
-      external: [
-        'react',
-        'react-dom',
-        'react/jsx-runtime',
-      ],
+      external: ['react', 'react-dom', 'react/jsx-runtime'],
       output: {
         globals: {
           react: 'React',
@@ -79,7 +75,13 @@ export default defineConfig({
     dts({
       outDir: ['dist'],
       insertTypesEntry: true,
-      exclude: ['src/helpers', '**/*.test.tsx', '**/*.stories.tsx', '**/*.test.ts', '**/tests-setup.ts'],
+      exclude: [
+        'src/helpers',
+        '**/*.test.tsx',
+        '**/*.stories.tsx',
+        '**/*.test.ts',
+        '**/tests-setup.ts',
+      ],
     }),
     viteStaticCopy({
       targets: [

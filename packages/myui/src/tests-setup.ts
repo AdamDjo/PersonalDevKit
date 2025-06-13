@@ -4,5 +4,5 @@ import '@testing-library/jest-dom';
 import failOnConsole from 'jest-fail-on-console';
 
 failOnConsole({
-    shouldFailOnWarn: false,
+  shouldFailOnWarn: false,
 });
